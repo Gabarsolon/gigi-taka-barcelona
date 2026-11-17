@@ -1,0 +1,30 @@
+# Node / Web dependencies
+node_modules/
+.next/
+dist/
+out/
+build/
+.env
+.env.local
+.env.*.local
+
+# Python / Scrapers
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+*.sqlite3
+
+# Decompiled artifacts and logs
+decompiled/
+*.log
+*.xapk
+*.apk
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
