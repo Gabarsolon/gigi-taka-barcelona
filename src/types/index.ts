@@ -1,4 +1,5 @@
 export type CriterionType = 'club' | 'achievement' | 'stat';
+export type DifficultyLevel = 'Ușor' | 'Mediu' | 'Greu' | 'Mod Patron';
 
 export interface Criterion {
   id: string;

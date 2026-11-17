@@ -1,4 +1,4 @@
-import { Criterion, Player, GridPuzzle } from '../types';
+import { Criterion, Player, GridPuzzle, DifficultyLevel } from '../types';
 import { CRITERIA_MAP } from '../data/clubs';
 
 export function normalizeText(text: string): string {
@@ -98,15 +98,35 @@ export function verifyPuzzleSolvability(
 }
 
 /**
- * Procedurally generates a fresh 3x3 grid where:
+ * Procedurally generates a fresh 3x3 grid matching the selected difficulty where:
  * 1. All 6 criteria (3 rows and 3 columns) are completely distinct.
  * 2. Every single intersection cell has at least 1 verified player solution.
  */
-export function generateRandomSolvableGrid(allPlayers: Player[]): GridPuzzle {
+export function generateRandomSolvableGrid(
+  allPlayers: Player[],
+  targetDifficulty: DifficultyLevel = 'Mediu'
+): GridPuzzle {
   const allCriteriaKeys = Object.keys(CRITERIA_MAP);
 
-  for (let attempt = 0; attempt < 80; attempt++) {
-    const shuffled = [...allCriteriaKeys].sort(() => 0.5 - Math.random());
+  let pool = allCriteriaKeys;
+  let minThreshold = 1;
+
+  if (targetDifficulty === 'Ușor') {
+    pool = [
+      'fcsb', 'dinamo', 'rapid', 'craiova', 'cfr', 'farul',
+      'romania_national', 'liga1_champion', 'champions_league', 'serie_a'
+    ];
+    minThreshold = 3;
+  } else if (targetDifficulty === 'Mediu') {
+    pool = allCriteriaKeys;
+    minThreshold = 2;
+  } else if (targetDifficulty === 'Greu' || targetDifficulty === 'Mod Patron') {
+    pool = allCriteriaKeys;
+    minThreshold = 1;
+  }
+
+  for (let attempt = 0; attempt < 100; attempt++) {
+    const shuffled = [...pool].sort(() => 0.5 - Math.random());
     const rowKeys = shuffled.slice(0, 3);
     const candidateColKeys = shuffled.slice(3);
 
@@ -114,7 +134,7 @@ export function generateRandomSolvableGrid(allPlayers: Player[]): GridPuzzle {
       const colCrit = CRITERIA_MAP[colKey];
       return rowKeys.every(rowKey => {
         const rowCrit = CRITERIA_MAP[rowKey];
-        return getPossibleSolutions(rowCrit, colCrit, allPlayers).length >= 1;
+        return getPossibleSolutions(rowCrit, colCrit, allPlayers).length >= minThreshold;
       });
     });
 
@@ -123,21 +143,15 @@ export function generateRandomSolvableGrid(allPlayers: Player[]): GridPuzzle {
       const rows = rowKeys.map(k => CRITERIA_MAP[k]);
       const cols = selectedColKeys.map(k => CRITERIA_MAP[k]);
 
-      let minSol = 999;
-      for (const r of rows) {
-        for (const c of cols) {
-          const count = getPossibleSolutions(r, c, allPlayers).length;
-          if (count < minSol) minSol = count;
-        }
-      }
-
-      const difficulty: 'Ușor' | 'Mediu' | 'Greu' | 'Mod Patron' =
-        minSol >= 3 ? 'Ușor' : minSol >= 2 ? 'Mediu' : 'Greu';
+      const titlePrefix =
+        targetDifficulty === 'Mod Patron' ? '👑 Mod Patron' :
+        targetDifficulty === 'Greu' ? '🔥 Grilă Grea' :
+        targetDifficulty === 'Ușor' ? '⭐ Grilă Ușoară' : '⚽ Gigi Grid';
 
       return {
         id: `grid-${Date.now()}-${Math.floor(Math.random() * 1000)}`,
-        title: `Gigi Grid #${Math.floor(Math.random() * 900) + 100}`,
-        difficulty,
+        title: `${titlePrefix} #${Math.floor(Math.random() * 900) + 100}`,
+        difficulty: targetDifficulty,
         rows,
         cols
       };
@@ -146,9 +160,9 @@ export function generateRandomSolvableGrid(allPlayers: Player[]): GridPuzzle {
 
   // Fallback preset
   return {
-    id: 'fallback-grid',
-    title: 'Gigi Daily Grid #1: Derby & Legende',
-    difficulty: 'Mediu',
+    id: `grid-fallback-${Date.now()}`,
+    title: `Gigi Grid (${targetDifficulty})`,
+    difficulty: targetDifficulty,
     rows: [CRITERIA_MAP.fcsb, CRITERIA_MAP.dinamo, CRITERIA_MAP.craiova],
     cols: [CRITERIA_MAP.galatasaray, CRITERIA_MAP.romania_national, CRITERIA_MAP.liga1_champion]
   };

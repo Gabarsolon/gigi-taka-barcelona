@@ -1,6 +1,6 @@
 import { useState, useEffect, useCallback } from 'react';
 import confetti from 'canvas-confetti';
-import { Player, CellPosition, GridPuzzle } from './types';
+import { Player, CellPosition, GridPuzzle, DifficultyLevel } from './types';
 import rawPlayers from './data/players.json';
 import { PRESET_PUZZLES, GIGI_QUOTES } from './data/puzzles';
 import { Header } from './components/Header';
@@ -13,10 +13,11 @@ import { validatePlayerForCell, generateRandomSolvableGrid } from './utils/gameL
 import { sound } from './utils/soundEngine';
 import { Dices, Calendar } from 'lucide-react';
 
-const MAX_LIVES = 3;
-
 export function App() {
   const allPlayers = rawPlayers as Player[];
+
+  const [difficulty, setDifficulty] = useState<DifficultyLevel>('Mediu');
+  const maxLives = difficulty === 'Mod Patron' ? 2 : 3;
 
   const [currentPuzzle, setCurrentPuzzle] = useState<GridPuzzle>(() => PRESET_PUZZLES[0]);
 
@@ -26,7 +27,7 @@ export function App() {
     [null, null, null]
   ]);
   const [usedPlayerIds, setUsedPlayerIds] = useState<Set<string>>(new Set());
-  const [lives, setLives] = useState(MAX_LIVES);
+  const [lives, setLives] = useState(maxLives);
   const [score, setScore] = useState(0);
 
   const [selectedCell, setSelectedCell] = useState<CellPosition | null>(null);
@@ -47,9 +48,10 @@ export function App() {
     sound.enabled = soundEnabled;
   }, [soundEnabled]);
 
-  const startNewGame = useCallback((generateNew = true) => {
+  const startNewGame = useCallback((generateNew = true, diff = difficulty) => {
+    const livesForDiff = diff === 'Mod Patron' ? 2 : 3;
     if (generateNew) {
-      const freshPuzzle = generateRandomSolvableGrid(allPlayers);
+      const freshPuzzle = generateRandomSolvableGrid(allPlayers, diff);
       setCurrentPuzzle(freshPuzzle);
     }
     setGrid([
@@ -58,17 +60,30 @@ export function App() {
       [null, null, null]
     ]);
     setUsedPlayerIds(new Set());
-    setLives(MAX_LIVES);
+    setLives(livesForDiff);
     setScore(0);
     setSelectedCell(null);
     setErrorCell(null);
     setGameResult(null);
     setIsSummaryOpen(false);
     setGigiMood('happy');
-    setGigiQuote(
-      "Meci nou, tată! 6 criterii proaspete, tiki-taka din prima atingere!"
-    );
-  }, [allPlayers]);
+
+    if (diff === 'Mod Patron') {
+      setGigiQuote("Băi băiatule, ai intrat în Mod Patron! Ai doar 2 greșeli, nu accept somnolență pe teren!");
+    } else if (diff === 'Greu') {
+      setGigiQuote("Atenție mare! Intrăm în folclorul greu al fotbalului românesc!");
+    } else if (diff === 'Ușor') {
+      setGigiQuote("Hai să începem ușor, ca un antrenament cu juniorii!");
+    } else {
+      setGigiQuote("Meci nou, tată! 6 criterii proaspete, tiki-taka din prima atingere!");
+    }
+  }, [allPlayers, difficulty]);
+
+  const handleDifficultyChange = (newDiff: DifficultyLevel) => {
+    sound.playPoc();
+    setDifficulty(newDiff);
+    startNewGame(true, newDiff);
+  };
 
   const handleCellClick = useCallback((row: number, col: number) => {
     if (lives <= 0 || gameResult !== null) return;
@@ -155,7 +170,8 @@ export function App() {
   const loadDailyGrid = () => {
     sound.playPoc();
     setCurrentPuzzle(PRESET_PUZZLES[0]);
-    startNewGame(false);
+    setDifficulty(PRESET_PUZZLES[0].difficulty);
+    startNewGame(false, PRESET_PUZZLES[0].difficulty);
   };
 
   return (
@@ -164,15 +180,74 @@ export function App() {
         <Header
           score={score}
           lives={lives}
-          maxLives={MAX_LIVES}
+          maxLives={maxLives}
           soundEnabled={soundEnabled}
           onToggleSound={() => setSoundEnabled(!soundEnabled)}
           onOpenHelp={() => setIsHelpOpen(true)}
-          onReset={() => startNewGame(true)}
+          onReset={() => startNewGame(true, difficulty)}
           puzzleTitle={currentPuzzle.title}
         />
 
         <GigiBanter quote={gigiQuote} mood={gigiMood} />
+
+        {/* Difficulty Selector Bar */}
+        <div className="w-full max-w-4xl mx-auto px-4 my-2">
+          <div className="flex flex-col sm:flex-row items-center justify-between gap-2.5 p-2 rounded-2xl bg-slate-900/80 border border-slate-800 shadow-md">
+            <div className="flex items-center gap-1.5 text-xs font-bold text-slate-300">
+              <span className="text-slate-400">Alege Dificultatea:</span>
+            </div>
+
+            <div className="flex items-center gap-1 bg-slate-950/80 p-1 rounded-xl border border-slate-800">
+              {(['Ușor', 'Mediu', 'Greu', 'Mod Patron'] as DifficultyLevel[]).map(level => {
+                const isActive = difficulty === level;
+                return (
+                  <button
+                    key={level}
+                    onClick={() => handleDifficultyChange(level)}
+                    className={`px-2.5 sm:px-3 py-1 sm:py-1.5 rounded-lg font-black text-xs transition flex items-center gap-1 ${
+                      isActive
+                        ? level === 'Mod Patron'
+                          ? 'bg-gradient-to-r from-purple-700 via-indigo-600 to-purple-800 text-gold shadow-md shadow-purple-950 border border-gold/40'
+                          : level === 'Greu'
+                          ? 'bg-red-700 text-white shadow-md shadow-red-950'
+                          : level === 'Mediu'
+                          ? 'bg-gold text-black shadow-md shadow-gold/30'
+                          : 'bg-emerald-600 text-white shadow-md shadow-emerald-950'
+                        : 'text-slate-400 hover:text-white hover:bg-slate-800/60'
+                    }`}
+                  >
+                    {level === 'Mod Patron' ? '👑 Patron' :
+                     level === 'Greu' ? '🔥 Greu' :
+                     level === 'Mediu' ? '⚽ Mediu' : '⭐ Ușor'}
+                  </button>
+                );
+              })}
+            </div>
+
+            <div className="flex items-center gap-2">
+              <button
+                onClick={loadDailyGrid}
+                className="flex items-center gap-1 px-2.5 py-1 sm:py-1.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-white transition border border-slate-700 text-xs font-semibold"
+                title="Încarcă grila oficială a zilei"
+              >
+                <Calendar size={13} className="text-emerald-400" />
+                Grila Zilei
+              </button>
+
+              <button
+                onClick={() => {
+                  sound.playPoc();
+                  startNewGame(true, difficulty);
+                }}
+                className="flex items-center gap-1 px-2.5 py-1 sm:py-1.5 rounded-xl bg-emerald-800/90 hover:bg-emerald-700 text-white transition border border-emerald-600 text-xs font-black shadow-md shadow-emerald-950"
+                title="Generează o grilă nouă cu dificultatea aleasă"
+              >
+                <Dices size={13} className="text-gold" />
+                Grilă Nouă
+              </button>
+            </div>
+          </div>
+        </div>
 
         <Grid
           rows={currentPuzzle.rows}
@@ -183,34 +258,6 @@ export function App() {
           onCellClick={handleCellClick}
           disabled={lives <= 0 || gameResult !== null}
         />
-
-        {/* Puzzle Switcher Controls */}
-        <div className="w-full max-w-4xl mx-auto px-4 mt-3 flex flex-wrap items-center justify-between gap-2 text-xs text-slate-400">
-          <div className="flex items-center gap-2">
-            <span>Dificultate: <strong className="text-gold">{currentPuzzle.difficulty}</strong></span>
-          </div>
-
-          <div className="flex items-center gap-2">
-            <button
-              onClick={loadDailyGrid}
-              className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-slate-800/80 hover:bg-slate-700 text-slate-300 hover:text-white transition border border-slate-700 font-semibold"
-            >
-              <Calendar size={14} className="text-emerald-400" />
-              Grila Zilei #1
-            </button>
-
-            <button
-              onClick={() => {
-                sound.playPoc();
-                startNewGame(true);
-              }}
-              className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-emerald-800/80 hover:bg-emerald-700 text-white transition border border-emerald-600 font-bold shadow-md shadow-emerald-950"
-            >
-              <Dices size={14} className="text-gold animate-spin-slow" />
-              🎲 Grilă Nouă Aleatorie
-            </button>
-          </div>
-        </div>
       </div>
 
       {/* Footer */}
@@ -237,7 +284,7 @@ export function App() {
         score={score}
         grid={grid}
         gigiQuote={gigiQuote}
-        onPlayAgain={() => startNewGame(true)}
+        onPlayAgain={() => startNewGame(true, difficulty)}
         puzzleTitle={currentPuzzle.title}
       />
 
