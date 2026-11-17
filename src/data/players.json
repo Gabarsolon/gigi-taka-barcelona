@@ -1,12 +1,1336 @@
 [
   {
+    "id": "ilie_adrian",
+    "name": "Adrian Ilie",
+    "normalizedName": "adrian ilie cobra",
+    "displayName": "Adrian Ilie (Cobra)",
+    "clubs": [
+      "craiova",
+      "fcsb",
+      "galatasaray"
+    ],
+    "nationalCaps": 55,
+    "achievements": [
+      "golden_generation",
+      "liga1_champion",
+      "champions_league",
+      "romania_national"
+    ],
+    "birthYear": 1974,
+    "position": "Atacant",
+    "nationality": "RO",
+    "isCultHero": true
+  },
+  {
+    "id": "mutu",
+    "name": "Adrian Mutu",
+    "normalizedName": "adrian mutu briliantul",
+    "displayName": "Adrian Mutu (Briliantul)",
+    "clubs": [
+      "arges",
+      "dinamo",
+      "inter",
+      "parma",
+      "chelsea",
+      "fiorentina",
+      "petrolul",
+      "rapid"
+    ],
+    "nationalCaps": 77,
+    "achievements": [
+      "serie_a",
+      "champions_league",
+      "romania_national"
+    ],
+    "birthYear": 1979,
+    "position": "Atacant",
+    "nationality": "RO",
+    "isCultHero": true
+  },
+  {
+    "id": "sut_adrian",
+    "name": "Adrian Șut",
+    "normalizedName": "adrian sut adrian sut",
+    "displayName": "Adrian Șut",
+    "clubs": [
+      "fcsb"
+    ],
+    "nationalCaps": 8,
+    "nationalGoals": 0,
+    "achievements": [],
+    "birthYear": 1999,
+    "position": "Mijlocaș Defensiv",
+    "nationality": "RO",
+    "photoUrl": "https://img.a.transfermarkt.technology/portrait/big/433979-1792532714.png",
+    "isCultHero": false
+  },
+  {
+    "id": "rrahmani_albion",
+    "name": "Albion Rrahmani",
+    "normalizedName": "albion rrahmani albion rrahmani",
+    "displayName": "Albion Rrahmani",
+    "clubs": [
+      "rapid"
+    ],
+    "nationalCaps": 0,
+    "nationalGoals": 0,
+    "achievements": [],
+    "birthYear": 2000,
+    "position": "Atacant",
+    "nationality": "Kosovo",
+    "photoUrl": "https://img.a.transfermarkt.technology/portrait/big/903706-1721802675.png",
+    "isCultHero": false
+  },
+  {
+    "id": "bourceanu",
+    "name": "Alexandru Bourceanu",
+    "normalizedName": "alexandru bourceanu gladiatotul",
+    "displayName": "Alexandru Bourceanu",
+    "clubs": [
+      "otelul",
+      "timisoara",
+      "fcsb"
+    ],
+    "nationalCaps": 27,
+    "achievements": [
+      "liga1_champion",
+      "romania_national"
+    ],
+    "birthYear": 1985,
+    "position": "Mijlocaș Defensiv",
+    "nationality": "RO"
+  },
+  {
+    "id": "chipciu",
+    "name": "Alexandru Chipciu",
+    "normalizedName": "alexandru chipciu alexandru chipciu",
+    "displayName": "Alexandru Chipciu",
+    "clubs": [
+      "cfr",
+      "fcsb"
+    ],
+    "nationalCaps": 51,
+    "nationalGoals": 6,
+    "achievements": [
+      "romania_national"
+    ],
+    "birthYear": 1989,
+    "position": "Fundaș Stânga",
+    "nationality": "RO",
+    "photoUrl": "https://img.a.transfermarkt.technology/portrait/big/64126-1732108770.png",
+    "isCultHero": false
+  },
+  {
+    "id": "cicaldau",
+    "name": "Alexandru Cicâldău",
+    "normalizedName": "alexandru cicaldau",
+    "displayName": "Alexandru Cicâldău",
+    "clubs": [
+      "farul",
+      "craiova",
+      "galatasaray"
+    ],
+    "nationalCaps": 38,
+    "achievements": [
+      "u21_euro_2019",
+      "romania_national"
+    ],
+    "birthYear": 1997,
+    "position": "Mijlocaș",
+    "nationality": "RO"
+  },
+  {
+    "id": "maxim_alexandru",
+    "name": "Alexandru Maxim",
+    "normalizedName": "alexandru maxim alexandru maxim",
+    "displayName": "Alexandru Maxim",
+    "clubs": [
+      "barcelona"
+    ],
+    "nationalCaps": 56,
+    "nationalGoals": 7,
+    "achievements": [
+      "romania_national"
+    ],
+    "birthYear": 1990,
+    "position": "Mijlocaș Ofensiv",
+    "nationality": "RO",
+    "photoUrl": "https://img.a.transfermarkt.technology/portrait/big/129513-1791801463.jpg",
+    "isCultHero": false
+  },
+  {
+    "id": "mitrita",
+    "name": "Alexandru Mitriță",
+    "normalizedName": "alexandru mitrita alexandru mitrita",
+    "displayName": "Alexandru Mitriță",
+    "clubs": [
+      "craiova",
+      "farul",
+      "fcsb"
+    ],
+    "nationalCaps": 26,
+    "nationalGoals": 4,
+    "achievements": [
+      "romania_national"
+    ],
+    "birthYear": 1995,
+    "position": "Extremă Stânga",
+    "nationality": "RO",
+    "photoUrl": "https://img.a.transfermarkt.technology/portrait/big/209649-1732190288.png",
+    "isCultHero": true
+  },
+  {
+    "id": "pascanu_alexandru",
+    "name": "Alexandru Pașcanu",
+    "normalizedName": "alexandru pascanu alexandru pascanu",
+    "displayName": "Alexandru Pașcanu",
+    "clubs": [
+      "cfr",
+      "rapid"
+    ],
+    "nationalCaps": 2,
+    "nationalGoals": 0,
+    "achievements": [],
+    "birthYear": 1998,
+    "position": "Fundaș Central",
+    "nationality": "RO",
+    "photoUrl": "https://img.a.transfermarkt.technology/portrait/big/421258-1752354090.png",
+    "isCultHero": false
+  },
+  {
+    "id": "compagno_andrea",
+    "name": "Andrea Compagno",
+    "normalizedName": "andrea compagno andrea compagno",
+    "displayName": "Andrea Compagno",
+    "clubs": [
+      "craiova",
+      "fcsb"
+    ],
+    "nationalCaps": 0,
+    "nationalGoals": 0,
+    "achievements": [
+      "serie_a"
+    ],
+    "birthYear": 1996,
+    "position": "Atacant",
+    "nationality": "Italy",
+    "photoUrl": "https://img.a.transfermarkt.technology/portrait/big/287255-1695302562.png",
+    "isCultHero": false
+  },
+  {
+    "id": "ivan_andrei",
+    "name": "Andrei Ivan",
+    "normalizedName": "andrei ivan andrei ivan",
+    "displayName": "Andrei Ivan",
+    "clubs": [
+      "craiova",
+      "rapid"
+    ],
+    "nationalCaps": 17,
+    "nationalGoals": 1,
+    "achievements": [
+      "romania_national"
+    ],
+    "birthYear": 1997,
+    "position": "Atacant",
+    "nationality": "RO",
+    "photoUrl": "https://img.a.transfermarkt.technology/portrait/big/271282-1732190421.png",
+    "isCultHero": false
+  },
+  {
+    "id": "dobos_toni",
+    "name": "Anton Doboș",
+    "normalizedName": "anton dobos anton dobos",
+    "displayName": "Anton Doboș",
+    "clubs": [
+      "dinamo",
+      "fcsb"
+    ],
+    "nationalCaps": 24,
+    "nationalGoals": 1,
+    "achievements": [
+      "romania_national",
+      "golden_generation"
+    ],
+    "birthYear": 1965,
+    "position": "Fundaș Central",
+    "nationality": "RO",
+    "photoUrl": "https://img.a.transfermarkt.technology/portrait/big/103214-1712821239.jpg",
+    "isCultHero": true
+  },
+  {
+    "id": "panduru_basarab",
+    "name": "Basarab Panduru",
+    "normalizedName": "basarab panduru basarab panduru",
+    "displayName": "Basarab Panduru",
+    "clubs": [
+      "fcsb"
+    ],
+    "nationalCaps": 23,
+    "nationalGoals": 1,
+    "achievements": [
+      "romania_national",
+      "golden_generation"
+    ],
+    "birthYear": 1970,
+    "position": "Mijlocaș Ofensiv",
+    "nationality": "RO",
+    "photoUrl": null,
+    "isCultHero": true
+  },
+  {
+    "id": "lobonț",
+    "name": "Bogdan Lobonț",
+    "normalizedName": "bogdan lobont pisica",
+    "displayName": "Bogdan Lobonț (Pisica)",
+    "clubs": [
+      "rapid",
+      "ajax",
+      "dinamo",
+      "fiorentina"
+    ],
+    "nationalCaps": 85,
+    "achievements": [
+      "liga1_champion",
+      "serie_a",
+      "champions_league",
+      "romania_national"
+    ],
+    "birthYear": 1978,
+    "position": "Portar",
+    "nationality": "RO"
+  },
+  {
+    "id": "stelea",
+    "name": "Bogdan Stelea",
+    "normalizedName": "bogdan stelea arnold",
+    "displayName": "Bogdan Stelea (Arnold)",
+    "clubs": [
+      "dinamo",
+      "fcsb",
+      "rapid",
+      "bistrita",
+      "urziceni",
+      "otelul"
+    ],
+    "nationalCaps": 91,
+    "achievements": [
+      "golden_generation",
+      "liga1_champion",
+      "romania_national"
+    ],
+    "birthYear": 1967,
+    "position": "Portar",
+    "nationality": "RO"
+  },
+  {
+    "id": "nicolita",
+    "name": "Bănel Nicoliță",
+    "normalizedName": "banel nicolita banel jardim",
+    "displayName": "Bănel Nicoliță",
+    "clubs": [
+      "timisoara",
+      "fcsb",
+      "farul"
+    ],
+    "nationalCaps": 37,
+    "achievements": [
+      "liga1_champion",
+      "champions_league",
+      "romania_national"
+    ],
+    "birthYear": 1985,
+    "position": "Mijlocaș Dreapta",
+    "nationality": "RO",
+    "isCultHero": true
+  },
+  {
+    "id": "deac",
+    "name": "Ciprian Deac",
+    "normalizedName": "ciprian deac ciprian ioan deac",
+    "displayName": "Ciprian Deac",
+    "clubs": [
+      "otelul",
+      "cfr",
+      "rapid"
+    ],
+    "nationalCaps": 26,
+    "achievements": [
+      "liga1_champion",
+      "champions_league",
+      "romania_national"
+    ],
+    "birthYear": 1986,
+    "position": "Mijlocaș",
+    "nationality": "RO"
+  },
+  {
+    "id": "marica",
+    "name": "Ciprian Marica",
+    "normalizedName": "ciprian marica",
+    "displayName": "Ciprian Marica",
+    "clubs": [
+      "dinamo",
+      "fcsb"
+    ],
+    "nationalCaps": 72,
+    "achievements": [
+      "liga1_champion",
+      "champions_league",
+      "romania_national"
+    ],
+    "birthYear": 1985,
+    "position": "Atacant",
+    "nationality": "RO"
+  },
+  {
+    "id": "tatarusanu",
+    "name": "Ciprian Tătărușanu",
+    "normalizedName": "ciprian tatarusanu tatarusanu",
+    "displayName": "Ciprian Tătărușanu",
+    "clubs": [
+      "bistrita",
+      "fcsb",
+      "fiorentina"
+    ],
+    "nationalCaps": 73,
+    "achievements": [
+      "liga1_champion",
+      "serie_a",
+      "champions_league",
+      "romania_national"
+    ],
+    "birthYear": 1986,
+    "position": "Portar",
+    "nationality": "RO"
+  },
+  {
+    "id": "keseru",
+    "name": "Claudiu Keșerü",
+    "normalizedName": "claudiu keseru claudio keseru",
+    "displayName": "Claudiu Keșerü",
+    "clubs": [
+      "fcsb",
+      "uta"
+    ],
+    "nationalCaps": 47,
+    "achievements": [
+      "liga1_champion",
+      "champions_league",
+      "romania_national"
+    ],
+    "birthYear": 1986,
+    "position": "Atacant",
+    "nationality": "RO"
+  },
+  {
+    "id": "niculescu_claudiu",
+    "name": "Claudiu Niculescu",
+    "normalizedName": "claudiu niculescu clau-gol",
+    "displayName": "Claudiu Niculescu (Clau-gol)",
+    "clubs": [
+      "craiova",
+      "dinamo"
+    ],
+    "nationalCaps": 8,
+    "achievements": [
+      "liga1_champion",
+      "serie_a"
+    ],
+    "birthYear": 1976,
+    "position": "Atacant",
+    "nationality": "RO",
+    "isCultHero": true
+  },
+  {
+    "id": "petrila",
+    "name": "Claudiu Petrila",
+    "normalizedName": "claudiu petrila claudiu petrila",
+    "displayName": "Claudiu Petrila",
+    "clubs": [
+      "cfr",
+      "rapid"
+    ],
+    "nationalCaps": 2,
+    "nationalGoals": 0,
+    "achievements": [],
+    "birthYear": 2000,
+    "position": "Extremă Stânga",
+    "nationality": "RO",
+    "photoUrl": "https://img.a.transfermarkt.technology/portrait/big/623424-1752354153.png",
+    "isCultHero": false
+  },
+  {
+    "id": "raducanu_claudiu",
+    "name": "Claudiu Răducanu",
+    "normalizedName": "claudiu raducanu claudiu raducanu",
+    "displayName": "Claudiu Răducanu",
+    "clubs": [
+      "barcelona",
+      "fcsb",
+      "vaslui"
+    ],
+    "nationalCaps": 3,
+    "nationalGoals": 0,
+    "achievements": [],
+    "birthYear": 1976,
+    "position": "Atacant",
+    "nationality": "RO",
+    "photoUrl": "https://img.a.transfermarkt.technology/portrait/big/s_16032_14104_2013_09_19_1.jpg",
+    "isCultHero": true
+  },
+  {
+    "id": "budescu",
+    "name": "Constantin Budescu",
+    "normalizedName": "constantin budescu costica budescu magul",
+    "displayName": "Constantin Budescu",
+    "clubs": [
+      "petrolul",
+      "astra",
+      "fcsb",
+      "farul"
+    ],
+    "nationalCaps": 17,
+    "achievements": [
+      "liga1_champion",
+      "romania_national"
+    ],
+    "birthYear": 1989,
+    "position": "Mijlocaș Ofensiv",
+    "nationality": "RO",
+    "isCultHero": true
+  },
+  {
+    "id": "galca_costel",
+    "name": "Constantin Gâlcă",
+    "normalizedName": "constantin galca constantin galca",
+    "displayName": "Constantin Gâlcă",
+    "clubs": [
+      "arges",
+      "barcelona",
+      "fcsb"
+    ],
+    "nationalCaps": 68,
+    "nationalGoals": 4,
+    "achievements": [
+      "romania_national",
+      "golden_generation"
+    ],
+    "birthYear": 1972,
+    "position": "Mijlocaș Defensiv",
+    "nationality": "RO",
+    "photoUrl": "https://img.a.transfermarkt.technology/portrait/big/7835-1691520338.jpg",
+    "isCultHero": true
+  },
+  {
+    "id": "moti",
+    "name": "Cosmin Moți",
+    "normalizedName": "cosmin moti eroul de la sofia",
+    "displayName": "Cosmin Moți",
+    "clubs": [
+      "craiova",
+      "dinamo"
+    ],
+    "nationalCaps": 15,
+    "achievements": [
+      "liga1_champion",
+      "serie_a",
+      "champions_league",
+      "romania_national"
+    ],
+    "birthYear": 1984,
+    "position": "Fundaș Central",
+    "nationality": "RO",
+    "isCultHero": true
+  },
+  {
+    "id": "chivu",
+    "name": "Cristian Chivu",
+    "normalizedName": "cristian chivu cristi chivu",
+    "displayName": "Cristian Chivu",
+    "clubs": [
+      "craiova",
+      "ajax",
+      "inter"
+    ],
+    "nationalCaps": 75,
+    "achievements": [
+      "serie_a",
+      "champions_league",
+      "romania_national"
+    ],
+    "birthYear": 1980,
+    "position": "Fundaș Central",
+    "nationality": "RO",
+    "isCultHero": true
+  },
+  {
+    "id": "manea_cristian",
+    "name": "Cristian Manea",
+    "normalizedName": "cristian manea cristian manea",
+    "displayName": "Cristian Manea",
+    "clubs": [
+      "cfr",
+      "farul",
+      "fcsb",
+      "rapid"
+    ],
+    "nationalCaps": 27,
+    "nationalGoals": 2,
+    "achievements": [
+      "romania_national"
+    ],
+    "birthYear": 1997,
+    "position": "Fundaș Dreapta",
+    "nationality": "RO",
+    "photoUrl": "https://img.a.transfermarkt.technology/portrait/big/271284-1721802614.png",
+    "isCultHero": false
+  },
+  {
+    "id": "sapunaru",
+    "name": "Cristian Săpunaru",
+    "normalizedName": "cristian sapunaru cristi sapunaru",
+    "displayName": "Cristian Săpunaru",
+    "clubs": [
+      "arges",
+      "rapid",
+      "astra"
+    ],
+    "nationalCaps": 36,
+    "achievements": [
+      "liga1_champion",
+      "romania_national"
+    ],
+    "birthYear": 1984,
+    "position": "Fundaș Dreapta",
+    "nationality": "RO"
+  },
+  {
+    "id": "thereau_cyril",
+    "name": "Cyril Théreau",
+    "normalizedName": "cyril thereau cyril thereau",
+    "displayName": "Cyril Théreau",
+    "clubs": [
+      "fcsb",
+      "fiorentina"
+    ],
+    "nationalCaps": 0,
+    "nationalGoals": 0,
+    "achievements": [
+      "serie_a"
+    ],
+    "birthYear": 1983,
+    "position": "Atacant",
+    "nationality": "France",
+    "photoUrl": "https://img.a.transfermarkt.technology/portrait/big/29316-1449133143.jpg",
+    "isCultHero": true
+  },
+  {
+    "id": "djokovic_damjan",
+    "name": "Damjan Djokovic",
+    "normalizedName": "damjan djokovic damjan djokovic",
+    "displayName": "Damjan Djokovic",
+    "clubs": [
+      "cfr",
+      "fcsb",
+      "rapid"
+    ],
+    "nationalCaps": 0,
+    "nationalGoals": 0,
+    "achievements": [
+      "serie_a"
+    ],
+    "birthYear": 1990,
+    "position": "Mijlocaș Defensiv",
+    "nationality": "Croatia",
+    "photoUrl": "https://img.a.transfermarkt.technology/portrait/big/143039-1732179304.png",
+    "isCultHero": false
+  },
+  {
+    "id": "alexa_dan",
+    "name": "Dan Alexa",
+    "normalizedName": "dan alexa dan alexa",
+    "displayName": "Dan Alexa",
+    "clubs": [
+      "craiova",
+      "dinamo",
+      "rapid",
+      "timisoara"
+    ],
+    "nationalCaps": 6,
+    "nationalGoals": 2,
+    "achievements": [],
+    "birthYear": 1979,
+    "position": "Mijlocaș Defensiv",
+    "nationality": "RO",
+    "photoUrl": "https://img.a.transfermarkt.technology/portrait/big/47146-1754394786.jpg",
+    "isCultHero": false
+  },
+  {
+    "id": "nistor",
+    "name": "Dan Nistor",
+    "normalizedName": "dan nistor dan nistor",
+    "displayName": "Dan Nistor",
+    "clubs": [
+      "arges",
+      "cfr",
+      "craiova",
+      "dinamo"
+    ],
+    "nationalCaps": 7,
+    "nationalGoals": 0,
+    "achievements": [
+      "serie_a"
+    ],
+    "birthYear": 1988,
+    "position": "Mijlocaș Ofensiv",
+    "nationality": "RO",
+    "photoUrl": "https://img.a.transfermarkt.technology/portrait/big/156639-1732108741.png",
+    "isCultHero": false
+  },
+  {
+    "id": "petrescu",
+    "name": "Dan Petrescu",
+    "normalizedName": "dan petrescu bursucul",
+    "displayName": "Dan Petrescu (Bursucul)",
+    "clubs": [
+      "fcsb",
+      "chelsea",
+      "fiorentina"
+    ],
+    "nationalCaps": 95,
+    "achievements": [
+      "golden_generation",
+      "liga1_champion",
+      "serie_a",
+      "romania_national"
+    ],
+    "birthYear": 1967,
+    "position": "Fundaș Dreapta",
+    "nationality": "RO"
+  },
+  {
+    "id": "birligea",
+    "name": "Daniel Bîrligea",
+    "normalizedName": "daniel birligea",
+    "displayName": "Daniel Bîrligea",
+    "clubs": [
+      "parma",
+      "cfr",
+      "fcsb"
+    ],
+    "nationalCaps": 3,
+    "achievements": [
+      "liga1_champion"
+    ],
+    "birthYear": 2000,
+    "position": "Atacant",
+    "nationality": "RO"
+  },
+  {
+    "id": "niculae_daniel",
+    "name": "Daniel Niculae",
+    "normalizedName": "daniel niculae nico",
+    "displayName": "Daniel Niculae",
+    "clubs": [
+      "rapid",
+      "astra"
+    ],
+    "nationalCaps": 39,
+    "achievements": [
+      "liga1_champion",
+      "romania_national"
+    ],
+    "birthYear": 1982,
+    "position": "Atacant",
+    "nationality": "RO"
+  },
+  {
+    "id": "pancu",
+    "name": "Daniel Pancu",
+    "normalizedName": "daniel pancu pancone",
+    "displayName": "Daniel Pancu (Pancone)",
+    "clubs": [
+      "rapid"
+    ],
+    "nationalCaps": 27,
+    "achievements": [
+      "liga1_champion",
+      "romania_national"
+    ],
+    "birthYear": 1977,
+    "position": "Atacant",
+    "nationality": "RO",
+    "isCultHero": true
+  },
+  {
+    "id": "prodan_didi",
+    "name": "Daniel Prodan",
+    "normalizedName": "daniel prodan daniel prodan",
+    "displayName": "Daniel Prodan",
+    "clubs": [
+      "fcsb"
+    ],
+    "nationalCaps": 54,
+    "nationalGoals": 1,
+    "achievements": [
+      "romania_national",
+      "golden_generation"
+    ],
+    "birthYear": 1972,
+    "position": "Fundaș Central",
+    "nationality": "RO",
+    "photoUrl": "https://img.a.transfermarkt.technology/portrait/big/102025-1479376890.jpg",
+    "isCultHero": true
+  },
+  {
+    "id": "olaru",
+    "name": "Darius Olaru",
+    "normalizedName": "darius olaru",
+    "displayName": "Darius Olaru",
+    "clubs": [
+      "fcsb"
+    ],
+    "nationalCaps": 24,
+    "achievements": [
+      "liga1_champion",
+      "romania_national"
+    ],
+    "birthYear": 1998,
+    "position": "Mijlocaș",
+    "nationality": "RO"
+  },
+  {
+    "id": "miculescu",
+    "name": "David Miculescu",
+    "normalizedName": "david miculescu david miculescu",
+    "displayName": "David Miculescu",
+    "clubs": [
+      "fcsb",
+      "rapid",
+      "uta"
+    ],
+    "nationalCaps": 8,
+    "nationalGoals": 0,
+    "achievements": [],
+    "birthYear": 2001,
+    "position": "Extremă Dreapta",
+    "nationality": "RO",
+    "photoUrl": "https://img.a.transfermarkt.technology/portrait/big/614800-1753789596.png",
+    "isCultHero": false
+  },
+  {
+    "id": "dayro_moreno",
+    "name": "Dayro Moreno",
+    "normalizedName": "dayro moreno dayro moreno",
+    "displayName": "Dayro Moreno",
+    "clubs": [
+      "fcsb"
+    ],
+    "nationalCaps": 0,
+    "nationalGoals": 0,
+    "achievements": [],
+    "birthYear": 1985,
+    "position": "Atacant",
+    "nationality": "Colombia",
+    "photoUrl": "https://img.a.transfermarkt.technology/portrait/big/42457-1696364738.jpg",
+    "isCultHero": true
+  },
+  {
+    "id": "sorescu",
+    "name": "Deian Sorescu",
+    "normalizedName": "deian sorescu deian sorescu",
+    "displayName": "Deian Sorescu",
+    "clubs": [
+      "dinamo",
+      "fcsb",
+      "timisoara"
+    ],
+    "nationalCaps": 25,
+    "nationalGoals": 0,
+    "achievements": [
+      "romania_national"
+    ],
+    "birthYear": 1997,
+    "position": "Extremă Dreapta",
+    "nationality": "RO",
+    "photoUrl": "https://img.a.transfermarkt.technology/portrait/big/379209-1791800921.jpg",
+    "isCultHero": false
+  },
+  {
+    "id": "alibec",
+    "name": "Denis Alibec",
+    "normalizedName": "denis alibec",
+    "displayName": "Denis Alibec",
+    "clubs": [
+      "inter",
+      "farul",
+      "astra",
+      "fcsb"
+    ],
+    "nationalCaps": 40,
+    "achievements": [
+      "serie_a",
+      "liga1_champion",
+      "romania_national"
+    ],
+    "birthYear": 1991,
+    "position": "Atacant",
+    "nationality": "RO",
+    "isCultHero": true
+  },
+  {
+    "id": "dragus_denis",
+    "name": "Denis Drăguș",
+    "normalizedName": "denis dragus denis dragus",
+    "displayName": "Denis Drăguș",
+    "clubs": [
+      "farul",
+      "fcsb"
+    ],
+    "nationalCaps": 28,
+    "nationalGoals": 7,
+    "achievements": [
+      "romania_national",
+      "serie_a"
+    ],
+    "birthYear": 1999,
+    "position": "Atacant",
+    "nationality": "RO",
+    "photoUrl": "https://img.a.transfermarkt.technology/portrait/big/405399-1761574798.jpg",
+    "isCultHero": false
+  },
+  {
+    "id": "man",
+    "name": "Dennis Man",
+    "normalizedName": "dennis man",
+    "displayName": "Dennis Man",
+    "clubs": [
+      "uta",
+      "fcsb",
+      "parma"
+    ],
+    "nationalCaps": 32,
+    "achievements": [
+      "u21_euro_2019",
+      "serie_a",
+      "romania_national"
+    ],
+    "birthYear": 1998,
+    "position": "Extremă Dreapta",
+    "nationality": "RO"
+  },
+  {
+    "id": "goian",
+    "name": "Dorin Goian",
+    "normalizedName": "dorin goian goe",
+    "displayName": "Dorin Goian (Goe)",
+    "clubs": [
+      "fcsb"
+    ],
+    "nationalCaps": 60,
+    "achievements": [
+      "liga1_champion",
+      "serie_a",
+      "champions_league",
+      "romania_national"
+    ],
+    "birthYear": 1980,
+    "position": "Fundaș Central",
+    "nationality": "RO"
+  },
+  {
+    "id": "dorinel",
+    "name": "Dorinel Munteanu",
+    "normalizedName": "dorinel munteanu neamtul",
+    "displayName": "Dorinel Munteanu",
+    "clubs": [
+      "dinamo",
+      "fcsb",
+      "cfr",
+      "arges",
+      "vaslui",
+      "otelul"
+    ],
+    "nationalCaps": 134,
+    "achievements": [
+      "golden_generation",
+      "liga1_champion",
+      "romania_national"
+    ],
+    "birthYear": 1968,
+    "position": "Mijlocaș",
+    "nationality": "RO"
+  },
+  {
+    "id": "culio_emmanuel",
+    "name": "Emmanuel Culio",
+    "normalizedName": "emmanuel culio emmanuel culio",
+    "displayName": "Emmanuel Culio",
+    "clubs": [
+      "cfr",
+      "galatasaray"
+    ],
+    "nationalCaps": 0,
+    "nationalGoals": 0,
+    "achievements": [],
+    "birthYear": 1983,
+    "position": "Mijlocaș Central",
+    "nationality": "Argentina",
+    "photoUrl": "https://img.a.transfermarkt.technology/portrait/big/30846-1447321414.jpg",
+    "isCultHero": true
+  },
+  {
+    "id": "krasniqi_ermal",
+    "name": "Ermal Krasniqi",
+    "normalizedName": "ermal krasniqi ermal krasniqi",
+    "displayName": "Ermal Krasniqi",
+    "clubs": [
+      "cfr",
+      "rapid"
+    ],
+    "nationalCaps": 0,
+    "nationalGoals": 0,
+    "achievements": [],
+    "birthYear": 1998,
+    "position": "Fundaș Dreapta",
+    "nationality": "Kosovo",
+    "photoUrl": "https://img.a.transfermarkt.technology/portrait/big/606893-1789549605.png",
+    "isCultHero": false
+  },
+  {
+    "id": "teixeira_filipe",
+    "name": "Filipe Teixeira",
+    "normalizedName": "filipe teixeira filipe teixeira",
+    "displayName": "Filipe Teixeira",
+    "clubs": [
+      "astra",
+      "fcsb",
+      "petrolul",
+      "rapid"
+    ],
+    "nationalCaps": 0,
+    "nationalGoals": 0,
+    "achievements": [],
+    "birthYear": 1980,
+    "position": "Extremă Dreapta",
+    "nationality": "Portugal",
+    "photoUrl": "https://img.a.transfermarkt.technology/portrait/big/5568-1697723143.jpg",
+    "isCultHero": true
+  },
+  {
+    "id": "cernat",
+    "name": "Florin Cernat",
+    "normalizedName": "florin cernat diamantul",
+    "displayName": "Florin Cernat",
+    "clubs": [
+      "otelul",
+      "dinamo",
+      "farul"
+    ],
+    "nationalCaps": 14,
+    "achievements": [
+      "champions_league"
+    ],
+    "birthYear": 1980,
+    "position": "Mijlocaș Ofensiv",
+    "nationality": "RO",
+    "isCultHero": true
+  },
+  {
+    "id": "gardos",
+    "name": "Florin Gardoș",
+    "normalizedName": "florin gardos",
+    "displayName": "Florin Gardoș",
+    "clubs": [
+      "fcsb",
+      "craiova"
+    ],
+    "nationalCaps": 14,
+    "achievements": [
+      "liga1_champion"
+    ],
+    "birthYear": 1988,
+    "position": "Fundaș Central",
+    "nationality": "RO"
+  },
+  {
+    "id": "nita_florin",
+    "name": "Florin Niță",
+    "normalizedName": "florin nita florin nita",
+    "displayName": "Florin Niță",
+    "clubs": [
+      "astra",
+      "fcsb",
+      "rapid"
+    ],
+    "nationalCaps": 31,
+    "nationalGoals": 0,
+    "achievements": [
+      "romania_national"
+    ],
+    "birthYear": 1987,
+    "position": "Portar",
+    "nationality": "RO",
+    "photoUrl": "https://img.a.transfermarkt.technology/portrait/big/200475-1718199419.jpg",
+    "isCultHero": false
+  },
+  {
+    "id": "prunea",
+    "name": "Florin Prunea",
+    "normalizedName": "florin prunea",
+    "displayName": "Florin Prunea",
+    "clubs": [
+      "dinamo",
+      "craiova",
+      "astra"
+    ],
+    "nationalCaps": 40,
+    "achievements": [
+      "golden_generation",
+      "liga1_champion",
+      "romania_national"
+    ],
+    "birthYear": 1968,
+    "position": "Portar",
+    "nationality": "RO"
+  },
+  {
+    "id": "raducioiu",
+    "name": "Florin Răducioiu",
+    "normalizedName": "florin raducioiu",
+    "displayName": "Florin Răducioiu",
+    "clubs": [
+      "dinamo",
+      "inter"
+    ],
+    "nationalCaps": 40,
+    "achievements": [
+      "golden_generation",
+      "serie_a",
+      "champions_league",
+      "romania_national"
+    ],
+    "birthYear": 1970,
+    "position": "Atacant",
+    "nationality": "RO"
+  },
+  {
+    "id": "tanase_florin",
+    "name": "Florin Tănase",
+    "normalizedName": "florin tanase florin tanase",
+    "displayName": "Florin Tănase",
+    "clubs": [
+      "farul",
+      "fcsb"
+    ],
+    "nationalCaps": 30,
+    "nationalGoals": 5,
+    "achievements": [
+      "romania_national"
+    ],
+    "birthYear": 1994,
+    "position": "Mijlocaș Ofensiv",
+    "nationality": "RO",
+    "photoUrl": "https://img.a.transfermarkt.technology/portrait/big/314329-1753789548.png",
+    "isCultHero": false
+  },
+  {
+    "id": "coman",
+    "name": "Florinel Coman",
+    "normalizedName": "florinel coman mbappe de romania",
+    "displayName": "Florinel Coman",
+    "clubs": [
+      "farul",
+      "fcsb"
+    ],
+    "nationalCaps": 19,
+    "achievements": [
+      "u21_euro_2019",
+      "liga1_champion",
+      "romania_national"
+    ],
+    "birthYear": 1998,
+    "position": "Extremă Stânga",
+    "nationality": "RO"
+  },
+  {
+    "id": "enache_gabriel",
+    "name": "Gabriel Enache",
+    "normalizedName": "gabriel enache gabriel enache",
+    "displayName": "Gabriel Enache",
+    "clubs": [
+      "astra",
+      "craiova",
+      "fcsb"
+    ],
+    "nationalCaps": 5,
+    "nationalGoals": 0,
+    "achievements": [],
+    "birthYear": 1990,
+    "position": "Fundaș Dreapta",
+    "nationality": "RO",
+    "photoUrl": "https://img.a.transfermarkt.technology/portrait/big/197652-1662106144.JPG",
+    "isCultHero": false
+  },
+  {
+    "id": "tamas",
+    "name": "Gabriel Tamaș",
+    "normalizedName": "gabriel tamas gabi tamas",
+    "displayName": "Gabriel Tamaș",
+    "clubs": [
+      "dinamo",
+      "galatasaray",
+      "fcsb",
+      "astra",
+      "petrolul"
+    ],
+    "nationalCaps": 67,
+    "achievements": [
+      "liga1_champion",
+      "romania_national"
+    ],
+    "birthYear": 1983,
+    "position": "Fundaș Central",
+    "nationality": "RO",
+    "isCultHero": true
+  },
+  {
+    "id": "torje",
+    "name": "Gabriel Torje",
+    "normalizedName": "gabriel torje gabi torje messi din banat",
+    "displayName": "Gabriel Torje",
+    "clubs": [
+      "timisoara",
+      "dinamo",
+      "farul"
+    ],
+    "nationalCaps": 57,
+    "achievements": [
+      "serie_a",
+      "romania_national"
+    ],
+    "birthYear": 1989,
+    "position": "Extremă",
+    "nationality": "RO"
+  },
+  {
+    "id": "galamaz",
+    "name": "George Galamaz",
+    "normalizedName": "george galamaz",
+    "displayName": "George Galamaz",
+    "clubs": [
+      "rapid",
+      "dinamo",
+      "urziceni",
+      "fcsb",
+      "petrolul"
+    ],
+    "nationalCaps": 4,
+    "achievements": [
+      "liga1_champion",
+      "champions_league"
+    ],
+    "birthYear": 1981,
+    "position": "Fundaș Central",
+    "nationality": "RO"
+  },
+  {
+    "id": "ogăraru",
+    "name": "George Ogăraru",
+    "normalizedName": "george ogararu",
+    "displayName": "George Ogăraru",
+    "clubs": [
+      "fcsb",
+      "otelul",
+      "ajax"
+    ],
+    "nationalCaps": 11,
+    "achievements": [
+      "liga1_champion",
+      "champions_league"
+    ],
+    "birthYear": 1980,
+    "position": "Fundaș Dreapta",
+    "nationality": "RO"
+  },
+  {
+    "id": "puscas",
+    "name": "George Pușcaș",
+    "normalizedName": "george puscas",
+    "displayName": "George Pușcaș",
+    "clubs": [
+      "inter"
+    ],
+    "nationalCaps": 44,
+    "achievements": [
+      "u21_euro_2019",
+      "serie_a",
+      "romania_national"
+    ],
+    "birthYear": 1996,
+    "position": "Atacant",
+    "nationality": "RO"
+  },
+  {
+    "id": "tucudean",
+    "name": "George Țucudean",
+    "normalizedName": "george tucudean george tucudean",
+    "displayName": "George Țucudean",
+    "clubs": [
+      "cfr",
+      "dinamo",
+      "farul",
+      "fcsb",
+      "uta"
+    ],
+    "nationalCaps": 10,
+    "nationalGoals": 3,
+    "achievements": [],
+    "birthYear": 1991,
+    "position": "Atacant",
+    "nationality": "RO",
+    "photoUrl": "https://img.a.transfermarkt.technology/portrait/big/130345-1566372853.png",
+    "isCultHero": true
+  },
+  {
+    "id": "geraldo_alves",
+    "name": "Geraldo",
+    "normalizedName": "geraldo geraldo alves",
+    "displayName": "Geraldo",
+    "clubs": [
+      "astra",
+      "fcsb",
+      "petrolul"
+    ],
+    "nationalCaps": 0,
+    "nationalGoals": 0,
+    "achievements": [],
+    "birthYear": 1980,
+    "position": "Fundaș Central",
+    "nationality": "Portugal",
+    "photoUrl": "https://img.a.transfermarkt.technology/portrait/big/s_14300_9465_2012_2.jpg",
+    "isCultHero": false
+  },
+  {
     "id": "hagi",
     "name": "Gheorghe Hagi",
     "normalizedName": "gheorghe hagi gica hagi regele",
     "displayName": "Gheorghe Hagi (Regele)",
-    "clubs": ["farul", "fcsb", "realmadrid", "barcelona", "galatasaray"],
+    "clubs": [
+      "farul",
+      "fcsb",
+      "realmadrid",
+      "barcelona",
+      "galatasaray"
+    ],
     "nationalCaps": 124,
-    "achievements": ["golden_generation", "liga1_champion", "champions_league", "romania_national"],
+    "achievements": [
+      "golden_generation",
+      "liga1_champion",
+      "champions_league",
+      "romania_national"
+    ],
     "birthYear": 1965,
     "position": "Mijlocaș Ofensiv",
     "nationality": "RO",
@@ -17,405 +1341,65 @@
     "name": "Gheorghe Popescu",
     "normalizedName": "gheorghe popescu gica popescu baciul",
     "displayName": "Gică Popescu (Baciul)",
-    "clubs": ["craiova", "fcsb", "barcelona", "galatasaray", "dinamo", "fiorentina"],
+    "clubs": [
+      "craiova",
+      "fcsb",
+      "barcelona",
+      "galatasaray",
+      "dinamo",
+      "fiorentina"
+    ],
     "nationalCaps": 115,
-    "achievements": ["golden_generation", "liga1_champion", "champions_league", "serie_a", "romania_national"],
+    "achievements": [
+      "golden_generation",
+      "liga1_champion",
+      "champions_league",
+      "serie_a",
+      "romania_national"
+    ],
     "birthYear": 1967,
     "position": "Fundaș Central",
     "nationality": "RO",
     "isCultHero": true
   },
   {
-    "id": "mutu",
-    "name": "Adrian Mutu",
-    "normalizedName": "adrian mutu briliantul",
-    "displayName": "Adrian Mutu (Briliantul)",
-    "clubs": ["arges", "dinamo", "inter", "parma", "chelsea", "fiorentina", "petrolul", "rapid"],
-    "nationalCaps": 77,
-    "achievements": ["serie_a", "champions_league", "romania_national"],
-    "birthYear": 1979,
-    "position": "Atacant",
-    "nationality": "RO",
-    "isCultHero": true
-  },
-  {
-    "id": "chivu",
-    "name": "Cristian Chivu",
-    "normalizedName": "cristian chivu cristi chivu",
-    "displayName": "Cristian Chivu",
-    "clubs": ["craiova", "ajax", "inter"],
-    "nationalCaps": 75,
-    "achievements": ["serie_a", "champions_league", "romania_national"],
-    "birthYear": 1980,
-    "position": "Fundaș Central",
-    "nationality": "RO",
-    "isCultHero": true
-  },
-  {
-    "id": "petrescu",
-    "name": "Dan Petrescu",
-    "normalizedName": "dan petrescu bursucul",
-    "displayName": "Dan Petrescu (Bursucul)",
-    "clubs": ["fcsb", "chelsea", "fiorentina"],
-    "nationalCaps": 95,
-    "achievements": ["golden_generation", "liga1_champion", "serie_a", "romania_national"],
-    "birthYear": 1967,
-    "position": "Fundaș Dreapta",
-    "nationality": "RO"
-  },
-  {
-    "id": "danciulescu",
-    "name": "Ionel Dănciulescu",
-    "normalizedName": "ionel danciulescu danciu-gol",
-    "displayName": "Ionel Dănciulescu",
-    "clubs": ["arges", "dinamo", "fcsb"],
-    "nationalCaps": 8,
-    "achievements": ["liga1_champion"],
-    "birthYear": 1976,
-    "position": "Atacant",
-    "nationality": "RO",
-    "isCultHero": true
-  },
-  {
-    "id": "stelea",
-    "name": "Bogdan Stelea",
-    "normalizedName": "bogdan stelea arnold",
-    "displayName": "Bogdan Stelea (Arnold)",
-    "clubs": ["dinamo", "fcsb", "rapid", "bistrita", "urziceni", "otelul"],
-    "nationalCaps": 91,
-    "achievements": ["golden_generation", "liga1_champion", "romania_national"],
-    "birthYear": 1967,
+    "id": "arlauskis",
+    "name": "Giedrius Arlauskis",
+    "normalizedName": "giedrius arlauskis arla",
+    "displayName": "Giedrius Arlauskis",
+    "clubs": [
+      "urziceni",
+      "fcsb",
+      "cfr",
+      "craiova"
+    ],
+    "nationalCaps": 23,
+    "achievements": [
+      "liga1_champion",
+      "champions_league"
+    ],
+    "birthYear": 1987,
     "position": "Portar",
-    "nationality": "RO"
-  },
-  {
-    "id": "lobonț",
-    "name": "Bogdan Lobonț",
-    "normalizedName": "bogdan lobont pisica",
-    "displayName": "Bogdan Lobonț (Pisica)",
-    "clubs": ["rapid", "ajax", "dinamo", "fiorentina"],
-    "nationalCaps": 85,
-    "achievements": ["liga1_champion", "serie_a", "champions_league", "romania_national"],
-    "birthYear": 1978,
-    "position": "Portar",
-    "nationality": "RO"
-  },
-  {
-    "id": "dorinel",
-    "name": "Dorinel Munteanu",
-    "normalizedName": "dorinel munteanu neamtul",
-    "displayName": "Dorinel Munteanu",
-    "clubs": ["dinamo", "fcsb", "cfr", "arges", "vaslui", "otelul"],
-    "nationalCaps": 134,
-    "achievements": ["golden_generation", "liga1_champion", "romania_national"],
-    "birthYear": 1968,
-    "position": "Mijlocaș",
-    "nationality": "RO"
-  },
-  {
-    "id": "stanciu",
-    "name": "Nicolae Stanciu",
-    "normalizedName": "nicolae stanciu nicusor stanciu",
-    "displayName": "Nicolae Stanciu",
-    "clubs": ["vaslui", "fcsb"],
-    "nationalCaps": 78,
-    "achievements": ["liga1_champion", "champions_league", "romania_national"],
-    "birthYear": 1993,
-    "position": "Mijlocaș Ofensiv",
-    "nationality": "RO"
-  },
-  {
-    "id": "alibec",
-    "name": "Denis Alibec",
-    "normalizedName": "denis alibec",
-    "displayName": "Denis Alibec",
-    "clubs": ["inter", "farul", "astra", "fcsb"],
-    "nationalCaps": 40,
-    "achievements": ["serie_a", "liga1_champion", "romania_national"],
-    "birthYear": 1991,
-    "position": "Atacant",
-    "nationality": "RO",
+    "nationality": "LT",
     "isCultHero": true
   },
   {
-    "id": "budescu",
-    "name": "Constantin Budescu",
-    "normalizedName": "constantin budescu costica budescu magul",
-    "displayName": "Constantin Budescu",
-    "clubs": ["petrolul", "astra", "fcsb", "farul"],
-    "nationalCaps": 17,
-    "achievements": ["liga1_champion", "romania_national"],
-    "birthYear": 1989,
-    "position": "Mijlocaș Ofensiv",
-    "nationality": "RO",
-    "isCultHero": true
-  },
-  {
-    "id": "sanmartean",
-    "name": "Lucian Sânmărtean",
-    "normalizedName": "lucian sanmartean magicianul din bistrita",
-    "displayName": "Lucian Sânmărtean",
-    "clubs": ["bistrita", "vaslui", "fcsb"],
-    "nationalCaps": 21,
-    "achievements": ["liga1_champion", "champions_league", "romania_national"],
-    "birthYear": 1980,
-    "position": "Mijlocaș",
-    "nationality": "RO",
-    "isCultHero": true
-  },
-  {
-    "id": "deac",
-    "name": "Ciprian Deac",
-    "normalizedName": "ciprian deac ciprian ioan deac",
-    "displayName": "Ciprian Deac",
-    "clubs": ["otelul", "cfr", "rapid"],
+    "id": "bucur_gigel",
+    "name": "Gigel Bucur",
+    "normalizedName": "gigel bucur gigel bucur",
+    "displayName": "Gigel Bucur",
+    "clubs": [
+      "timisoara"
+    ],
     "nationalCaps": 26,
-    "achievements": ["liga1_champion", "champions_league", "romania_national"],
-    "birthYear": 1986,
-    "position": "Mijlocaș",
-    "nationality": "RO"
-  },
-  {
-    "id": "camora",
-    "name": "Mario Camora",
-    "normalizedName": "mario camora",
-    "displayName": "Mario Camora",
-    "clubs": ["cfr"],
-    "nationalCaps": 10,
-    "achievements": ["liga1_champion", "champions_league"],
-    "birthYear": 1986,
-    "position": "Fundaș Stânga",
-    "nationality": "RO"
-  },
-  {
-    "id": "man",
-    "name": "Dennis Man",
-    "normalizedName": "dennis man",
-    "displayName": "Dennis Man",
-    "clubs": ["uta", "fcsb", "parma"],
-    "nationalCaps": 32,
-    "achievements": ["u21_euro_2019", "serie_a", "romania_national"],
-    "birthYear": 1998,
-    "position": "Extremă Dreapta",
-    "nationality": "RO"
-  },
-  {
-    "id": "mihaila",
-    "name": "Valentin Mihăilă",
-    "normalizedName": "valentin mihaila vali mihaila",
-    "displayName": "Valentin Mihăilă",
-    "clubs": ["craiova", "parma"],
-    "nationalCaps": 26,
-    "achievements": ["u21_euro_2019", "serie_a", "romania_national"],
-    "birthYear": 2000,
+    "nationalGoals": 4,
+    "achievements": [
+      "romania_national"
+    ],
+    "birthYear": 1980,
     "position": "Extremă Stânga",
-    "nationality": "RO"
-  },
-  {
-    "id": "coman",
-    "name": "Florinel Coman",
-    "normalizedName": "florinel coman mbappe de romania",
-    "displayName": "Florinel Coman",
-    "clubs": ["farul", "fcsb"],
-    "nationalCaps": 19,
-    "achievements": ["u21_euro_2019", "liga1_champion", "romania_national"],
-    "birthYear": 1998,
-    "position": "Extremă Stânga",
-    "nationality": "RO"
-  },
-  {
-    "id": "ianis",
-    "name": "Ianis Hagi",
-    "normalizedName": "ianis hagi",
-    "displayName": "Ianis Hagi",
-    "clubs": ["farul", "fiorentina"],
-    "nationalCaps": 43,
-    "achievements": ["u21_euro_2019", "serie_a", "romania_national"],
-    "birthYear": 1998,
-    "position": "Mijlocaș Ofensiv",
-    "nationality": "RO"
-  },
-  {
-    "id": "dragusin",
-    "name": "Radu Drăgușin",
-    "normalizedName": "radu dragusin",
-    "displayName": "Radu Drăgușin",
-    "clubs": ["serie_a"],
-    "nationalCaps": 25,
-    "achievements": ["u21_euro_2019", "serie_a", "romania_national"],
-    "birthYear": 2002,
-    "position": "Fundaș Central",
-    "nationality": "RO"
-  },
-  {
-    "id": "marin_razvan",
-    "name": "Răzvan Marin",
-    "normalizedName": "razvan marin",
-    "displayName": "Răzvan Marin",
-    "clubs": ["farul", "ajax"],
-    "nationalCaps": 63,
-    "achievements": ["serie_a", "champions_league", "romania_national"],
-    "birthYear": 1996,
-    "position": "Mijlocaș Central",
-    "nationality": "RO"
-  },
-  {
-    "id": "radu_ionut",
-    "name": "Ionuț Radu",
-    "normalizedName": "ionut radu andrei radu",
-    "displayName": "Ionuț Radu",
-    "clubs": ["fcsb", "dinamo", "inter", "parma"],
-    "nationalCaps": 4,
-    "achievements": ["u21_euro_2019", "serie_a"],
-    "birthYear": 1997,
-    "position": "Portar",
-    "nationality": "RO"
-  },
-  {
-    "id": "puscas",
-    "name": "George Pușcaș",
-    "normalizedName": "george puscas",
-    "displayName": "George Pușcaș",
-    "clubs": ["inter"],
-    "nationalCaps": 44,
-    "achievements": ["u21_euro_2019", "serie_a", "romania_national"],
-    "birthYear": 1996,
-    "position": "Atacant",
-    "nationality": "RO"
-  },
-  {
-    "id": "cicaldau",
-    "name": "Alexandru Cicâldău",
-    "normalizedName": "alexandru cicaldau",
-    "displayName": "Alexandru Cicâldău",
-    "clubs": ["farul", "craiova", "galatasaray"],
-    "nationalCaps": 38,
-    "achievements": ["u21_euro_2019", "romania_national"],
-    "birthYear": 1997,
-    "position": "Mijlocaș",
-    "nationality": "RO"
-  },
-  {
-    "id": "tamas",
-    "name": "Gabriel Tamaș",
-    "normalizedName": "gabriel tamas gabi tamas",
-    "displayName": "Gabriel Tamaș",
-    "clubs": ["dinamo", "galatasaray", "fcsb", "astra", "petrolul"],
-    "nationalCaps": 67,
-    "achievements": ["liga1_champion", "romania_national"],
-    "birthYear": 1983,
-    "position": "Fundaș Central",
     "nationality": "RO",
-    "isCultHero": true
-  },
-  {
-    "id": "marica",
-    "name": "Ciprian Marica",
-    "normalizedName": "ciprian marica",
-    "displayName": "Ciprian Marica",
-    "clubs": ["dinamo", "fcsb"],
-    "nationalCaps": 72,
-    "achievements": ["liga1_champion", "champions_league", "romania_national"],
-    "birthYear": 1985,
-    "position": "Atacant",
-    "nationality": "RO"
-  },
-  {
-    "id": "keseru",
-    "name": "Claudiu Keșerü",
-    "normalizedName": "claudiu keseru claudio keseru",
-    "displayName": "Claudiu Keșerü",
-    "clubs": ["fcsb", "uta"],
-    "nationalCaps": 47,
-    "achievements": ["liga1_champion", "champions_league", "romania_national"],
-    "birthYear": 1986,
-    "position": "Atacant",
-    "nationality": "RO"
-  },
-  {
-    "id": "tatarusanu",
-    "name": "Ciprian Tătărușanu",
-    "normalizedName": "ciprian tatarusanu tatarusanu",
-    "displayName": "Ciprian Tătărușanu",
-    "clubs": ["bistrita", "fcsb", "fiorentina"],
-    "nationalCaps": 73,
-    "achievements": ["liga1_champion", "serie_a", "champions_league", "romania_national"],
-    "birthYear": 1986,
-    "position": "Portar",
-    "nationality": "RO"
-  },
-  {
-    "id": "chiriches",
-    "name": "Vlad Chiricheș",
-    "normalizedName": "vlad chiriches",
-    "displayName": "Vlad Chiricheș",
-    "clubs": ["fcsb"],
-    "nationalCaps": 76,
-    "achievements": ["liga1_champion", "serie_a", "champions_league", "romania_national"],
-    "birthYear": 1989,
-    "position": "Fundaș Central",
-    "nationality": "RO"
-  },
-  {
-    "id": "sapunaru",
-    "name": "Cristian Săpunaru",
-    "normalizedName": "cristian sapunaru cristi sapunaru",
-    "displayName": "Cristian Săpunaru",
-    "clubs": ["arges", "rapid", "astra"],
-    "nationalCaps": 36,
-    "achievements": ["liga1_champion", "romania_national"],
-    "birthYear": 1984,
-    "position": "Fundaș Dreapta",
-    "nationality": "RO"
-  },
-  {
-    "id": "pancu",
-    "name": "Daniel Pancu",
-    "normalizedName": "daniel pancu pancone",
-    "displayName": "Daniel Pancu (Pancone)",
-    "clubs": ["rapid"],
-    "nationalCaps": 27,
-    "achievements": ["liga1_champion", "romania_national"],
-    "birthYear": 1977,
-    "position": "Atacant",
-    "nationality": "RO",
-    "isCultHero": true
-  },
-  {
-    "id": "niculae_daniel",
-    "name": "Daniel Niculae",
-    "normalizedName": "daniel niculae nico",
-    "displayName": "Daniel Niculae",
-    "clubs": ["rapid", "astra"],
-    "nationalCaps": 39,
-    "achievements": ["liga1_champion", "romania_national"],
-    "birthYear": 1982,
-    "position": "Atacant",
-    "nationality": "RO"
-  },
-  {
-    "id": "niculae_marius",
-    "name": "Marius Niculae",
-    "normalizedName": "marius niculae sageata",
-    "displayName": "Marius Niculae (Săgeată)",
-    "clubs": ["dinamo", "vaslui"],
-    "nationalCaps": 44,
-    "achievements": ["liga1_champion", "romania_national"],
-    "birthYear": 1981,
-    "position": "Atacant",
-    "nationality": "RO"
-  },
-  {
-    "id": "niculescu_claudiu",
-    "name": "Claudiu Niculescu",
-    "normalizedName": "claudiu niculescu clau-gol",
-    "displayName": "Claudiu Niculescu (Clau-gol)",
-    "clubs": ["craiova", "dinamo"],
-    "nationalCaps": 8,
-    "achievements": ["liga1_champion", "serie_a"],
-    "birthYear": 1976,
-    "position": "Atacant",
-    "nationality": "RO",
+    "photoUrl": "https://img.a.transfermarkt.technology/portrait/big/47152-1662304130.png",
     "isCultHero": true
   },
   {
@@ -423,7 +1407,10 @@
     "name": "Harlem Gnohéré",
     "normalizedName": "harlem gnohere bizonul",
     "displayName": "Harlem Gnohéré (Bizonul)",
-    "clubs": ["dinamo", "fcsb"],
+    "clubs": [
+      "dinamo",
+      "fcsb"
+    ],
     "nationalCaps": 0,
     "achievements": [],
     "birthYear": 1988,
@@ -432,77 +1419,191 @@
     "isCultHero": true
   },
   {
-    "id": "torje",
-    "name": "Gabriel Torje",
-    "normalizedName": "gabriel torje gabi torje messi din banat",
-    "displayName": "Gabriel Torje",
-    "clubs": ["timisoara", "dinamo", "farul"],
-    "nationalCaps": 57,
-    "achievements": ["serie_a", "romania_national"],
-    "birthYear": 1989,
-    "position": "Extremă",
-    "nationality": "RO"
-  },
-  {
-    "id": "radoi",
-    "name": "Mirel Rădoi",
-    "normalizedName": "mirel radoi capitanul",
-    "displayName": "Mirel Rădoi",
-    "clubs": ["fcsb"],
-    "nationalCaps": 67,
-    "achievements": ["liga1_champion", "champions_league", "romania_national"],
-    "birthYear": 1981,
-    "position": "Fundaș / Mijlocaș",
+    "id": "moldovan_horatiu",
+    "name": "Horațiu Moldovan",
+    "normalizedName": "horatiu moldovan horatiu moldovan",
+    "displayName": "Horațiu Moldovan",
+    "clubs": [
+      "cfr",
+      "rapid",
+      "uta"
+    ],
+    "nationalCaps": 16,
+    "nationalGoals": 0,
+    "achievements": [
+      "romania_national",
+      "serie_a"
+    ],
+    "birthYear": 1998,
+    "position": "Portar",
     "nationality": "RO",
-    "isCultHero": true
+    "photoUrl": "https://img.a.transfermarkt.technology/portrait/big/525438-1789896970.jpg",
+    "isCultHero": false
   },
   {
-    "id": "dica",
-    "name": "Nicolae Dică",
-    "normalizedName": "nicolae dica nick",
-    "displayName": "Nicolae Dică",
-    "clubs": ["arges", "fcsb", "farul"],
-    "nationalCaps": 32,
-    "achievements": ["liga1_champion", "serie_a", "champions_league", "romania_national"],
-    "birthYear": 1980,
+    "id": "ianis",
+    "name": "Ianis Hagi",
+    "normalizedName": "ianis hagi",
+    "displayName": "Ianis Hagi",
+    "clubs": [
+      "farul",
+      "fiorentina"
+    ],
+    "nationalCaps": 43,
+    "achievements": [
+      "u21_euro_2019",
+      "serie_a",
+      "romania_national"
+    ],
+    "birthYear": 1998,
     "position": "Mijlocaș Ofensiv",
     "nationality": "RO"
   },
   {
-    "id": "rusescu",
-    "name": "Raul Rusescu",
-    "normalizedName": "raul rusescu ruse",
-    "displayName": "Raul Rusescu",
-    "clubs": ["urziceni", "fcsb"],
-    "nationalCaps": 10,
-    "achievements": ["liga1_champion"],
-    "birthYear": 1988,
-    "position": "Atacant",
-    "nationality": "RO"
-  },
-  {
-    "id": "arlauskis",
-    "name": "Giedrius Arlauskis",
-    "normalizedName": "giedrius arlauskis arla",
-    "displayName": "Giedrius Arlauskis",
-    "clubs": ["urziceni", "fcsb", "cfr", "craiova"],
-    "nationalCaps": 23,
-    "achievements": ["liga1_champion", "champions_league"],
-    "birthYear": 1987,
-    "position": "Portar",
-    "nationality": "LT",
+    "id": "zicu",
+    "name": "Ianis Zicu",
+    "normalizedName": "ianis zicu ianis zicu",
+    "displayName": "Ianis Zicu",
+    "clubs": [
+      "dinamo",
+      "farul",
+      "inter",
+      "parma",
+      "petrolul",
+      "rapid",
+      "timisoara"
+    ],
+    "nationalCaps": 12,
+    "nationalGoals": 1,
+    "achievements": [
+      "serie_a"
+    ],
+    "birthYear": 1983,
+    "position": "Mijlocaș Ofensiv",
+    "nationality": "RO",
+    "photoUrl": "https://img.a.transfermarkt.technology/portrait/big/16909-1641745844.png",
     "isCultHero": true
   },
   {
-    "id": "galamaz",
-    "name": "George Galamaz",
-    "normalizedName": "george galamaz",
-    "displayName": "George Galamaz",
-    "clubs": ["rapid", "dinamo", "urziceni", "fcsb", "petrolul"],
-    "nationalCaps": 4,
-    "achievements": ["liga1_champion", "champions_league"],
-    "birthYear": 1981,
+    "id": "dumitrescu_ilie",
+    "name": "Ilie Dumitrescu",
+    "normalizedName": "ilie dumitrescu mister",
+    "displayName": "Ilie Dumitrescu",
+    "clubs": [
+      "fcsb",
+      "arges"
+    ],
+    "nationalCaps": 62,
+    "achievements": [
+      "golden_generation",
+      "liga1_champion",
+      "romania_national"
+    ],
+    "birthYear": 1969,
+    "position": "Atacant",
+    "nationality": "RO",
+    "isCultHero": true
+  },
+  {
+    "id": "danciulescu",
+    "name": "Ionel Dănciulescu",
+    "normalizedName": "ionel danciulescu danciu-gol",
+    "displayName": "Ionel Dănciulescu",
+    "clubs": [
+      "arges",
+      "dinamo",
+      "fcsb"
+    ],
+    "nationalCaps": 8,
+    "achievements": [
+      "liga1_champion"
+    ],
+    "birthYear": 1976,
+    "position": "Atacant",
+    "nationality": "RO",
+    "isCultHero": true
+  },
+  {
+    "id": "ganea_ionel",
+    "name": "Ionel Ganea",
+    "normalizedName": "ionel ganea ionel ganea",
+    "displayName": "Ionel Ganea",
+    "clubs": [
+      "bistrita",
+      "craiova",
+      "dinamo",
+      "inter",
+      "rapid",
+      "timisoara"
+    ],
+    "nationalCaps": 46,
+    "nationalGoals": 19,
+    "achievements": [
+      "romania_national",
+      "serie_a",
+      "golden_generation"
+    ],
+    "birthYear": 1973,
+    "position": "Atacant",
+    "nationality": "RO",
+    "photoUrl": "https://img.a.transfermarkt.technology/portrait/big/595-1461311655.jpg",
+    "isCultHero": true
+  },
+  {
+    "id": "lupescu",
+    "name": "Ionuț Lupescu",
+    "normalizedName": "ionut lupescu kaizerul",
+    "displayName": "Ionuț Lupescu",
+    "clubs": [
+      "dinamo"
+    ],
+    "nationalCaps": 74,
+    "achievements": [
+      "golden_generation",
+      "liga1_champion",
+      "romania_national"
+    ],
+    "birthYear": 1968,
+    "position": "Mijlocaș",
+    "nationality": "RO"
+  },
+  {
+    "id": "nedelcearu_ionut",
+    "name": "Ionuț Nedelcearu",
+    "normalizedName": "ionut nedelcearu ionut nedelcearu",
+    "displayName": "Ionuț Nedelcearu",
+    "clubs": [
+      "dinamo"
+    ],
+    "nationalCaps": 27,
+    "nationalGoals": 2,
+    "achievements": [
+      "romania_national"
+    ],
+    "birthYear": 1996,
     "position": "Fundaș Central",
+    "nationality": "RO",
+    "photoUrl": "https://img.a.transfermarkt.technology/portrait/big/274694-1784996291.png",
+    "isCultHero": false
+  },
+  {
+    "id": "radu_ionut",
+    "name": "Ionuț Radu",
+    "normalizedName": "ionut radu andrei radu",
+    "displayName": "Ionuț Radu",
+    "clubs": [
+      "fcsb",
+      "dinamo",
+      "inter",
+      "parma"
+    ],
+    "nationalCaps": 4,
+    "achievements": [
+      "u21_euro_2019",
+      "serie_a"
+    ],
+    "birthYear": 1997,
+    "position": "Portar",
     "nationality": "RO"
   },
   {
@@ -510,72 +1611,634 @@
     "name": "Iulian Apostol",
     "normalizedName": "iulian apostol",
     "displayName": "Iulian Apostol",
-    "clubs": ["otelul", "urziceni", "fcsb", "rapid"],
+    "clubs": [
+      "otelul",
+      "urziceni",
+      "fcsb",
+      "rapid"
+    ],
     "nationalCaps": 14,
-    "achievements": ["liga1_champion", "champions_league"],
+    "achievements": [
+      "liga1_champion",
+      "champions_league"
+    ],
     "birthYear": 1980,
     "position": "Mijlocaș",
     "nationality": "RO"
   },
   {
-    "id": "nicolita",
-    "name": "Bănel Nicoliță",
-    "normalizedName": "banel nicolita banel jardim",
-    "displayName": "Bănel Nicoliță",
-    "clubs": ["timisoara", "fcsb", "farul"],
-    "nationalCaps": 37,
-    "achievements": ["liga1_champion", "champions_league", "romania_national"],
-    "birthYear": 1985,
-    "position": "Mijlocaș Dreapta",
+    "id": "junior_morais",
+    "name": "Júnior Morais",
+    "normalizedName": "junior morais junior morais",
+    "displayName": "Júnior Morais",
+    "clubs": [
+      "astra",
+      "fcsb",
+      "rapid"
+    ],
+    "nationalCaps": 0,
+    "nationalGoals": 0,
+    "achievements": [],
+    "birthYear": 1986,
+    "position": "Fundaș Stânga",
+    "nationality": "RO",
+    "photoUrl": "https://img.a.transfermarkt.technology/portrait/big/125069-1705939227.png",
+    "isCultHero": false
+  },
+  {
+    "id": "traore_lacina",
+    "name": "Lacina Traoré",
+    "normalizedName": "lacina traore lacina traore",
+    "displayName": "Lacina Traoré",
+    "clubs": [
+      "cfr"
+    ],
+    "nationalCaps": 0,
+    "nationalGoals": 0,
+    "achievements": [],
+    "birthYear": 1990,
+    "position": "Atacant",
+    "nationality": "Cote d'Ivoire",
+    "photoUrl": "https://img.a.transfermarkt.technology/portrait/big/69006-1487240503.jpg",
+    "isCultHero": true
+  },
+  {
+    "id": "munteanu_louis",
+    "name": "Louis Munteanu",
+    "normalizedName": "louis munteanu louis munteanu",
+    "displayName": "Louis Munteanu",
+    "clubs": [
+      "cfr",
+      "farul",
+      "fiorentina"
+    ],
+    "nationalCaps": 8,
+    "nationalGoals": 3,
+    "achievements": [
+      "serie_a"
+    ],
+    "birthYear": 2002,
+    "position": "Atacant",
+    "nationality": "RO",
+    "photoUrl": "https://img.a.transfermarkt.technology/portrait/big/547786-1771687352.jpg",
+    "isCultHero": false
+  },
+  {
+    "id": "sanmartean",
+    "name": "Lucian Sânmărtean",
+    "normalizedName": "lucian sanmartean magicianul din bistrita",
+    "displayName": "Lucian Sânmărtean",
+    "clubs": [
+      "bistrita",
+      "vaslui",
+      "fcsb"
+    ],
+    "nationalCaps": 21,
+    "achievements": [
+      "liga1_champion",
+      "champions_league",
+      "romania_national"
+    ],
+    "birthYear": 1980,
+    "position": "Mijlocaș",
     "nationality": "RO",
     "isCultHero": true
   },
   {
-    "id": "goian",
-    "name": "Dorin Goian",
-    "normalizedName": "dorin goian goe",
-    "displayName": "Dorin Goian (Goe)",
-    "clubs": ["fcsb"],
-    "nationalCaps": 60,
-    "achievements": ["liga1_champion", "serie_a", "champions_league", "romania_national"],
-    "birthYear": 1980,
-    "position": "Fundaș Central",
+    "id": "aliuta_marian",
+    "name": "Marian Aliuta",
+    "normalizedName": "marian aliuta marian aliuta",
+    "displayName": "Marian Aliuta",
+    "clubs": [
+      "bistrita",
+      "farul",
+      "fcsb",
+      "rapid",
+      "timisoara",
+      "vaslui"
+    ],
+    "nationalCaps": 5,
+    "nationalGoals": 0,
+    "achievements": [],
+    "birthYear": 1978,
+    "position": "Mijlocaș Ofensiv",
+    "nationality": "RO",
+    "photoUrl": "https://img.a.transfermarkt.technology/portrait/big/28532-1693482288.jpg",
+    "isCultHero": true
+  },
+  {
+    "id": "camora",
+    "name": "Mario Camora",
+    "normalizedName": "mario camora",
+    "displayName": "Mario Camora",
+    "clubs": [
+      "cfr"
+    ],
+    "nationalCaps": 10,
+    "achievements": [
+      "liga1_champion",
+      "champions_league"
+    ],
+    "birthYear": 1986,
+    "position": "Fundaș Stânga",
     "nationality": "RO"
   },
   {
-    "id": "ghionea",
-    "name": "Sorin Ghionea",
-    "normalizedName": "sorin ghionea",
-    "displayName": "Sorin Ghionea",
-    "clubs": ["otelul", "fcsb", "timisoara"],
-    "nationalCaps": 13,
-    "achievements": ["liga1_champion", "champions_league"],
-    "birthYear": 1979,
-    "position": "Fundaș Central",
+    "id": "lacatus",
+    "name": "Marius Lăcătuș",
+    "normalizedName": "marius lacatus fiara",
+    "displayName": "Marius Lăcătuș (Fiara)",
+    "clubs": [
+      "fcsb",
+      "fiorentina"
+    ],
+    "nationalCaps": 83,
+    "achievements": [
+      "golden_generation",
+      "liga1_champion",
+      "champions_league",
+      "serie_a",
+      "romania_national"
+    ],
+    "birthYear": 1964,
+    "position": "Atacant",
+    "nationality": "RO",
+    "isCultHero": true
+  },
+  {
+    "id": "marin_marius",
+    "name": "Marius Marin",
+    "normalizedName": "marius marin marius marin",
+    "displayName": "Marius Marin",
+    "clubs": [
+      "timisoara"
+    ],
+    "nationalCaps": 37,
+    "nationalGoals": 0,
+    "achievements": [
+      "romania_national",
+      "serie_a"
+    ],
+    "birthYear": 1998,
+    "position": "Mijlocaș Defensiv",
+    "nationality": "RO",
+    "photoUrl": "https://img.a.transfermarkt.technology/portrait/big/379163-1751530473.jpg",
+    "isCultHero": false
+  },
+  {
+    "id": "niculae_marius",
+    "name": "Marius Niculae",
+    "normalizedName": "marius niculae sageata",
+    "displayName": "Marius Niculae (Săgeată)",
+    "clubs": [
+      "dinamo",
+      "vaslui"
+    ],
+    "nationalCaps": 44,
+    "achievements": [
+      "liga1_champion",
+      "romania_national"
+    ],
+    "birthYear": 1981,
+    "position": "Atacant",
     "nationality": "RO"
   },
   {
-    "id": "ogăraru",
-    "name": "George Ogăraru",
-    "normalizedName": "george ogararu",
-    "displayName": "George Ogăraru",
-    "clubs": ["fcsb", "otelul", "ajax"],
-    "nationalCaps": 11,
-    "achievements": ["liga1_champion", "champions_league"],
-    "birthYear": 1980,
-    "position": "Fundaș Dreapta",
+    "id": "dugandzic_marko",
+    "name": "Marko Dugandzic",
+    "normalizedName": "marko dugandzic marko dugandzic",
+    "displayName": "Marko Dugandzic",
+    "clubs": [
+      "cfr",
+      "rapid"
+    ],
+    "nationalCaps": 0,
+    "nationalGoals": 0,
+    "achievements": [],
+    "birthYear": 1994,
+    "position": "Atacant",
+    "nationality": "Croatia",
+    "photoUrl": "https://img.a.transfermarkt.technology/portrait/big/225961-1773555693.png",
+    "isCultHero": false
+  },
+  {
+    "id": "adailton",
+    "name": "Martins Adailton",
+    "normalizedName": "martins adailton",
+    "displayName": "Adailton",
+    "clubs": [
+      "parma",
+      "vaslui"
+    ],
+    "nationalCaps": 0,
+    "achievements": [
+      "serie_a"
+    ],
+    "birthYear": 1977,
+    "position": "Atacant",
+    "nationality": "BR",
+    "isCultHero": true
+  },
+  {
+    "id": "lixandru",
+    "name": "Mihai Lixandru",
+    "normalizedName": "mihai lixandru mihai lixandru",
+    "displayName": "Mihai Lixandru",
+    "clubs": [
+      "fcsb"
+    ],
+    "nationalCaps": 0,
+    "nationalGoals": 0,
+    "achievements": [],
+    "birthYear": 2001,
+    "position": "Mijlocaș Central",
+    "nationality": "RO",
+    "photoUrl": "https://img.a.transfermarkt.technology/portrait/big/824915-1732265763.png",
+    "isCultHero": false
+  },
+  {
+    "id": "pintilii",
+    "name": "Mihai Pintilii",
+    "normalizedName": "mihai pintilii pinti",
+    "displayName": "Mihai Pintilii",
+    "clubs": [
+      "fcsb"
+    ],
+    "nationalCaps": 44,
+    "achievements": [
+      "liga1_champion",
+      "champions_league",
+      "romania_national"
+    ],
+    "birthYear": 1984,
+    "position": "Mijlocaș Defensiv",
     "nationality": "RO"
+  },
+  {
+    "id": "belodedici",
+    "name": "Miodrag Belodedici",
+    "normalizedName": "miodrag belodedici belo caprioara",
+    "displayName": "Miodrag Belodedici (Belo)",
+    "clubs": [
+      "fcsb"
+    ],
+    "nationalCaps": 55,
+    "achievements": [
+      "golden_generation",
+      "liga1_champion",
+      "champions_league",
+      "romania_national"
+    ],
+    "birthYear": 1964,
+    "position": "Libero",
+    "nationality": "RO",
+    "isCultHero": true
+  },
+  {
+    "id": "radoi",
+    "name": "Mirel Rădoi",
+    "normalizedName": "mirel radoi capitanul",
+    "displayName": "Mirel Rădoi",
+    "clubs": [
+      "fcsb"
+    ],
+    "nationalCaps": 67,
+    "achievements": [
+      "liga1_champion",
+      "champions_league",
+      "romania_national"
+    ],
+    "birthYear": 1981,
+    "position": "Fundaș / Mijlocaș",
+    "nationality": "RO",
+    "isCultHero": true
+  },
+  {
+    "id": "sougou_modou",
+    "name": "Modou Sougou",
+    "normalizedName": "modou sougou modou sougou",
+    "displayName": "Modou Sougou",
+    "clubs": [
+      "cfr"
+    ],
+    "nationalCaps": 0,
+    "nationalGoals": 0,
+    "achievements": [],
+    "birthYear": 1984,
+    "position": "Extremă Dreapta",
+    "nationality": "Senegal",
+    "photoUrl": "https://img.a.transfermarkt.technology/portrait/big/s_33831_244_2012_2.jpg",
+    "isCultHero": true
+  },
+  {
+    "id": "dica",
+    "name": "Nicolae Dică",
+    "normalizedName": "nicolae dica nick",
+    "displayName": "Nicolae Dică",
+    "clubs": [
+      "arges",
+      "fcsb",
+      "farul"
+    ],
+    "nationalCaps": 32,
+    "achievements": [
+      "liga1_champion",
+      "serie_a",
+      "champions_league",
+      "romania_national"
+    ],
+    "birthYear": 1980,
+    "position": "Mijlocaș Ofensiv",
+    "nationality": "RO"
+  },
+  {
+    "id": "mitea",
+    "name": "Nicolae Mitea",
+    "normalizedName": "nicolae mitea niky mitea",
+    "displayName": "Nicolae Mitea",
+    "clubs": [
+      "dinamo",
+      "ajax"
+    ],
+    "nationalCaps": 9,
+    "achievements": [
+      "champions_league"
+    ],
+    "birthYear": 1985,
+    "position": "Extremă",
+    "nationality": "RO",
+    "isCultHero": true
+  },
+  {
+    "id": "stanciu",
+    "name": "Nicolae Stanciu",
+    "normalizedName": "nicolae stanciu nicusor stanciu",
+    "displayName": "Nicolae Stanciu",
+    "clubs": [
+      "vaslui",
+      "fcsb"
+    ],
+    "nationalCaps": 78,
+    "achievements": [
+      "liga1_champion",
+      "champions_league",
+      "romania_national"
+    ],
+    "birthYear": 1993,
+    "position": "Mijlocaș Ofensiv",
+    "nationality": "RO"
+  },
+  {
+    "id": "bancu",
+    "name": "Nicușor Bancu",
+    "normalizedName": "nicusor bancu nicusor bancu",
+    "displayName": "Nicușor Bancu",
+    "clubs": [
+      "craiova"
+    ],
+    "nationalCaps": 56,
+    "nationalGoals": 2,
+    "achievements": [
+      "romania_national"
+    ],
+    "birthYear": 1992,
+    "position": "Fundaș Stânga",
+    "nationality": "RO",
+    "photoUrl": "https://img.a.transfermarkt.technology/portrait/big/213195-1732191162.png",
+    "isCultHero": false
+  },
+  {
+    "id": "morutan",
+    "name": "Olimpiu Moruțan",
+    "normalizedName": "olimpiu morutan olimpiu morutan",
+    "displayName": "Olimpiu Moruțan",
+    "clubs": [
+      "fcsb",
+      "galatasaray",
+      "rapid"
+    ],
+    "nationalCaps": 20,
+    "nationalGoals": 1,
+    "achievements": [
+      "romania_national"
+    ],
+    "birthYear": 1999,
+    "position": "Extremă Dreapta",
+    "nationality": "RO",
+    "photoUrl": "https://img.a.transfermarkt.technology/portrait/big/429551-1770383895.png",
+    "isCultHero": false
+  },
+  {
+    "id": "hoban",
+    "name": "Ovidiu Hoban",
+    "normalizedName": "ovidiu hoban ovidiu hoban",
+    "displayName": "Ovidiu Hoban",
+    "clubs": [
+      "cfr",
+      "craiova",
+      "petrolul"
+    ],
+    "nationalCaps": 30,
+    "nationalGoals": 1,
+    "achievements": [
+      "romania_national"
+    ],
+    "birthYear": 1982,
+    "position": "Mijlocaș Defensiv",
+    "nationality": "RO",
+    "photoUrl": "https://img.a.transfermarkt.technology/portrait/big/81484-1661770025.jpg",
+    "isCultHero": false
+  },
+  {
+    "id": "tachtsidis",
+    "name": "Panagiotis Tachtsidis",
+    "normalizedName": "panagiotis tachtsidis panagiotis tachtsidis",
+    "displayName": "Panagiotis Tachtsidis",
+    "clubs": [
+      "cfr"
+    ],
+    "nationalCaps": 0,
+    "nationalGoals": 0,
+    "achievements": [
+      "serie_a"
+    ],
+    "birthYear": 1991,
+    "position": "Mijlocaș Defensiv",
+    "nationality": "Greece",
+    "photoUrl": "https://img.a.transfermarkt.technology/portrait/big/62415-1732178428.png",
+    "isCultHero": true
+  },
+  {
+    "id": "kapetanos",
+    "name": "Pantelis Kapetanos",
+    "normalizedName": "pantelis kapetanos",
+    "displayName": "Pantelis Kapetanos",
+    "clubs": [
+      "fcsb",
+      "cfr"
+    ],
+    "nationalCaps": 4,
+    "achievements": [
+      "liga1_champion",
+      "champions_league"
+    ],
+    "birthYear": 1983,
+    "position": "Atacant",
+    "nationality": "GR",
+    "isCultHero": true
+  },
+  {
+    "id": "papp",
+    "name": "Paul Papp",
+    "normalizedName": "paul papp paul papp",
+    "displayName": "Paul Papp",
+    "clubs": [
+      "astra",
+      "craiova",
+      "farul",
+      "fcsb",
+      "petrolul",
+      "vaslui"
+    ],
+    "nationalCaps": 19,
+    "nationalGoals": 3,
+    "achievements": [
+      "romania_national",
+      "serie_a"
+    ],
+    "birthYear": 1989,
+    "position": "Fundaș Central",
+    "nationality": "RO",
+    "photoUrl": "https://img.a.transfermarkt.technology/portrait/big/112552-1732182587.png",
+    "isCultHero": false
   },
   {
     "id": "petre_marin",
     "name": "Petre Marin",
     "normalizedName": "petre marin jair",
     "displayName": "Petre Marin (Jair)",
-    "clubs": ["rapid", "fcsb", "urziceni"],
+    "clubs": [
+      "rapid",
+      "fcsb",
+      "urziceni"
+    ],
     "nationalCaps": 9,
-    "achievements": ["liga1_champion", "champions_league"],
+    "achievements": [
+      "liga1_champion",
+      "champions_league"
+    ],
     "birthYear": 1973,
     "position": "Fundaș Stânga",
+    "nationality": "RO"
+  },
+  {
+    "id": "otele_philip",
+    "name": "Philip Otele",
+    "normalizedName": "philip otele philip otele",
+    "displayName": "Philip Otele",
+    "clubs": [
+      "cfr",
+      "uta"
+    ],
+    "nationalCaps": 0,
+    "nationalGoals": 0,
+    "achievements": [],
+    "birthYear": 1999,
+    "position": "Extremă Stânga",
+    "nationality": "Nigeria",
+    "photoUrl": "https://img.a.transfermarkt.technology/portrait/big/678655-1689769630.jpg",
+    "isCultHero": false
+  },
+  {
+    "id": "dragusin",
+    "name": "Radu Drăgușin",
+    "normalizedName": "radu dragusin",
+    "displayName": "Radu Drăgușin",
+    "clubs": [
+      "serie_a"
+    ],
+    "nationalCaps": 25,
+    "achievements": [
+      "u21_euro_2019",
+      "serie_a",
+      "romania_national"
+    ],
+    "birthYear": 2002,
+    "position": "Fundaș Central",
+    "nationality": "RO"
+  },
+  {
+    "id": "rusescu",
+    "name": "Raul Rusescu",
+    "normalizedName": "raul rusescu ruse",
+    "displayName": "Raul Rusescu",
+    "clubs": [
+      "urziceni",
+      "fcsb"
+    ],
+    "nationalCaps": 10,
+    "achievements": [
+      "liga1_champion"
+    ],
+    "birthYear": 1988,
+    "position": "Atacant",
+    "nationality": "RO"
+  },
+  {
+    "id": "de_zerbi_roberto",
+    "name": "Roberto De Zerbi",
+    "normalizedName": "roberto de zerbi roberto de zerbi",
+    "displayName": "Roberto De Zerbi",
+    "clubs": [
+      "cfr"
+    ],
+    "nationalCaps": 0,
+    "nationalGoals": 0,
+    "achievements": [
+      "serie_a"
+    ],
+    "birthYear": 1979,
+    "position": "Mijlocaș Ofensiv",
+    "nationality": "Italy",
+    "photoUrl": "https://img.a.transfermarkt.technology/portrait/big/23194-1466153519.jpg",
+    "isCultHero": true
+  },
+  {
+    "id": "surdu_romeo",
+    "name": "Romeo Surdu",
+    "normalizedName": "romeo surdu romeo surdu",
+    "displayName": "Romeo Surdu",
+    "clubs": [
+      "cfr",
+      "fcsb",
+      "rapid"
+    ],
+    "nationalCaps": 7,
+    "nationalGoals": 0,
+    "achievements": [],
+    "birthYear": 1984,
+    "position": "Extremă Stânga",
+    "nationality": "RO",
+    "photoUrl": "https://img.a.transfermarkt.technology/portrait/big/43378-1671034981.png",
+    "isCultHero": true
+  },
+  {
+    "id": "marin_razvan",
+    "name": "Răzvan Marin",
+    "normalizedName": "razvan marin",
+    "displayName": "Răzvan Marin",
+    "clubs": [
+      "farul",
+      "ajax"
+    ],
+    "nationalCaps": 63,
+    "achievements": [
+      "serie_a",
+      "champions_league",
+      "romania_national"
+    ],
+    "birthYear": 1996,
+    "position": "Mijlocaș Central",
     "nationality": "RO"
   },
   {
@@ -583,11 +2246,157 @@
     "name": "Răzvan Raț",
     "normalizedName": "razvan rat",
     "displayName": "Răzvan Raț",
-    "clubs": ["rapid", "timisoara"],
+    "clubs": [
+      "rapid",
+      "timisoara"
+    ],
     "nationalCaps": 113,
-    "achievements": ["liga1_champion", "champions_league", "romania_national"],
+    "achievements": [
+      "liga1_champion",
+      "champions_league",
+      "romania_national"
+    ],
     "birthYear": 1981,
     "position": "Fundaș Stânga",
+    "nationality": "RO"
+  },
+  {
+    "id": "ilie_sabin",
+    "name": "Sabin Ilie",
+    "normalizedName": "sabin ilie sabin ilie",
+    "displayName": "Sabin Ilie",
+    "clubs": [
+      "astra",
+      "dinamo",
+      "fcsb",
+      "rapid",
+      "uta"
+    ],
+    "nationalCaps": 1,
+    "nationalGoals": 0,
+    "achievements": [],
+    "birthYear": 1975,
+    "position": "Atacant",
+    "nationality": "RO",
+    "photoUrl": "https://img.a.transfermarkt.technology/portrait/big/717-1712730702.jpg",
+    "isCultHero": false
+  },
+  {
+    "id": "ghionea",
+    "name": "Sorin Ghionea",
+    "normalizedName": "sorin ghionea",
+    "displayName": "Sorin Ghionea",
+    "clubs": [
+      "otelul",
+      "fcsb",
+      "timisoara"
+    ],
+    "nationalCaps": 13,
+    "achievements": [
+      "liga1_champion",
+      "champions_league"
+    ],
+    "birthYear": 1979,
+    "position": "Fundaș Central",
+    "nationality": "RO"
+  },
+  {
+    "id": "selymes_tibor",
+    "name": "Tibor Selymes",
+    "normalizedName": "tibor selymes tibor selymes",
+    "displayName": "Tibor Selymes",
+    "clubs": [
+      "dinamo"
+    ],
+    "nationalCaps": 46,
+    "nationalGoals": 0,
+    "achievements": [
+      "romania_national",
+      "golden_generation"
+    ],
+    "birthYear": 1970,
+    "position": "Fundaș Stânga",
+    "nationality": "RO",
+    "photoUrl": "https://img.a.transfermarkt.technology/portrait/big/s_15548_123_2012_1.jpg",
+    "isCultHero": true
+  },
+  {
+    "id": "costache_valentin",
+    "name": "Valentin Costache",
+    "normalizedName": "valentin costache valentin costache",
+    "displayName": "Valentin Costache",
+    "clubs": [
+      "cfr",
+      "dinamo",
+      "rapid",
+      "uta"
+    ],
+    "nationalCaps": 0,
+    "nationalGoals": 0,
+    "achievements": [],
+    "birthYear": 1998,
+    "position": "Fotbalist",
+    "nationality": "RO",
+    "photoUrl": "https://img.a.transfermarkt.technology/portrait/big/341391-1787495244.png",
+    "isCultHero": false
+  },
+  {
+    "id": "mihaila",
+    "name": "Valentin Mihăilă",
+    "normalizedName": "valentin mihaila vali mihaila",
+    "displayName": "Valentin Mihăilă",
+    "clubs": [
+      "craiova",
+      "parma"
+    ],
+    "nationalCaps": 26,
+    "achievements": [
+      "u21_euro_2019",
+      "serie_a",
+      "romania_national"
+    ],
+    "birthYear": 2000,
+    "position": "Extremă Stânga",
+    "nationality": "RO"
+  },
+  {
+    "id": "moldovan_viorel",
+    "name": "Viorel Moldovan",
+    "normalizedName": "viorel moldovan comisarul",
+    "displayName": "Viorel Moldovan",
+    "clubs": [
+      "bistrita",
+      "dinamo",
+      "rapid",
+      "timisoara"
+    ],
+    "nationalCaps": 70,
+    "achievements": [
+      "golden_generation",
+      "liga1_champion",
+      "romania_national"
+    ],
+    "birthYear": 1972,
+    "position": "Atacant",
+    "nationality": "RO"
+  },
+  {
+    "id": "chiriches",
+    "name": "Vlad Chiricheș",
+    "normalizedName": "vlad chiriches",
+    "displayName": "Vlad Chiricheș",
+    "clubs": [
+      "fcsb"
+    ],
+    "nationalCaps": 76,
+    "achievements": [
+      "liga1_champion",
+      "serie_a",
+      "champions_league",
+      "romania_national"
+    ],
+    "birthYear": 1989,
+    "position": "Fundaș Central",
     "nationality": "RO"
   },
   {
@@ -595,7 +2404,10 @@
     "name": "Wesley Lopes",
     "normalizedName": "wesley lopes da silva",
     "displayName": "Wesley Lopes",
-    "clubs": ["vaslui", "timisoara"],
+    "clubs": [
+      "vaslui",
+      "timisoara"
+    ],
     "nationalCaps": 0,
     "achievements": [],
     "birthYear": 1980,
@@ -604,240 +2416,93 @@
     "isCultHero": true
   },
   {
-    "id": "adailton",
-    "name": "Martins Adailton",
-    "normalizedName": "martins adailton",
-    "displayName": "Adailton",
-    "clubs": ["parma", "vaslui"],
+    "id": "kone_yssouf",
+    "name": "Yssouf Koné",
+    "normalizedName": "yssouf kone yssouf kone",
+    "displayName": "Yssouf Koné",
+    "clubs": [
+      "cfr"
+    ],
     "nationalCaps": 0,
-    "achievements": ["serie_a"],
-    "birthYear": 1977,
+    "nationalGoals": 0,
+    "achievements": [],
+    "birthYear": 1982,
     "position": "Atacant",
-    "nationality": "BR",
+    "nationality": "Burkina Faso",
+    "photoUrl": null,
     "isCultHero": true
   },
   {
-    "id": "kapetanos",
-    "name": "Pantelis Kapetanos",
-    "normalizedName": "pantelis kapetanos",
-    "displayName": "Pantelis Kapetanos",
-    "clubs": ["fcsb", "cfr"],
-    "nationalCaps": 4,
-    "achievements": ["liga1_champion", "champions_league"],
-    "birthYear": 1983,
-    "position": "Atacant",
-    "nationality": "GR",
-    "isCultHero": true
-  },
-  {
-    "id": "pintilii",
-    "name": "Mihai Pintilii",
-    "normalizedName": "mihai pintilii pinti",
-    "displayName": "Mihai Pintilii",
-    "clubs": ["fcsb"],
-    "nationalCaps": 44,
-    "achievements": ["liga1_champion", "champions_league", "romania_national"],
-    "birthYear": 1984,
-    "position": "Mijlocaș Defensiv",
-    "nationality": "RO"
-  },
-  {
-    "id": "bourceanu",
-    "name": "Alexandru Bourceanu",
-    "normalizedName": "alexandru bourceanu gladiatotul",
-    "displayName": "Alexandru Bourceanu",
-    "clubs": ["otelul", "timisoara", "fcsb"],
-    "nationalCaps": 27,
-    "achievements": ["liga1_champion", "romania_national"],
+    "id": "pereira_alvaro",
+    "name": "Álvaro Pereira",
+    "normalizedName": "alvaro pereira alvaro pereira",
+    "displayName": "Álvaro Pereira",
+    "clubs": [
+      "cfr",
+      "inter"
+    ],
+    "nationalCaps": 0,
+    "nationalGoals": 0,
+    "achievements": [
+      "serie_a"
+    ],
     "birthYear": 1985,
-    "position": "Mijlocaș Defensiv",
-    "nationality": "RO"
+    "position": "Fundaș Stânga",
+    "nationality": "Uruguay",
+    "photoUrl": "https://img.a.transfermarkt.technology/portrait/big/s_54859_46_2013_09_09_1.jpg",
+    "isCultHero": true
   },
   {
-    "id": "moti",
-    "name": "Cosmin Moți",
-    "normalizedName": "cosmin moti eroul de la sofia",
-    "displayName": "Cosmin Moți",
-    "clubs": ["craiova", "dinamo"],
-    "nationalCaps": 15,
-    "achievements": ["liga1_champion", "serie_a", "champions_league", "romania_national"],
+    "id": "szukala_lukasz",
+    "name": "Łukasz Szukala",
+    "normalizedName": "łukasz szukala lukasz szukala",
+    "displayName": "Łukasz Szukala",
+    "clubs": [
+      "bistrita",
+      "fcsb",
+      "petrolul"
+    ],
+    "nationalCaps": 0,
+    "nationalGoals": 0,
+    "achievements": [],
     "birthYear": 1984,
     "position": "Fundaș Central",
-    "nationality": "RO",
-    "isCultHero": true
+    "nationality": "Poland",
+    "photoUrl": "https://img.a.transfermarkt.technology/portrait/big/19081-1442395555.jpg",
+    "isCultHero": false
   },
   {
     "id": "stefan_radu",
     "name": "Ștefan Radu",
     "normalizedName": "stefan radu fane radu boss",
     "displayName": "Ștefan Radu",
-    "clubs": ["dinamo"],
+    "clubs": [
+      "dinamo"
+    ],
     "nationalCaps": 14,
-    "achievements": ["liga1_champion", "serie_a"],
+    "achievements": [
+      "liga1_champion",
+      "serie_a"
+    ],
     "birthYear": 1986,
     "position": "Fundaș Stânga",
     "nationality": "RO"
   },
   {
-    "id": "olaru",
-    "name": "Darius Olaru",
-    "normalizedName": "darius olaru",
-    "displayName": "Darius Olaru",
-    "clubs": ["fcsb"],
-    "nationalCaps": 24,
-    "achievements": ["liga1_champion", "romania_national"],
-    "birthYear": 1998,
-    "position": "Mijlocaș",
-    "nationality": "RO"
-  },
-  {
-    "id": "birligea",
-    "name": "Daniel Bîrligea",
-    "normalizedName": "daniel birligea",
-    "displayName": "Daniel Bîrligea",
-    "clubs": ["parma", "cfr", "fcsb"],
-    "nationalCaps": 3,
-    "achievements": ["liga1_champion"],
+    "id": "tarnovanu",
+    "name": "Ștefan Târnovanu",
+    "normalizedName": "stefan tarnovanu stefan tarnovanu",
+    "displayName": "Ștefan Târnovanu",
+    "clubs": [
+      "fcsb"
+    ],
+    "nationalCaps": 5,
+    "nationalGoals": 0,
+    "achievements": [],
     "birthYear": 2000,
-    "position": "Atacant",
-    "nationality": "RO"
-  },
-  {
-    "id": "lacatus",
-    "name": "Marius Lăcătuș",
-    "normalizedName": "marius lacatus fiara",
-    "displayName": "Marius Lăcătuș (Fiara)",
-    "clubs": ["fcsb", "fiorentina"],
-    "nationalCaps": 83,
-    "achievements": ["golden_generation", "liga1_champion", "champions_league", "serie_a", "romania_national"],
-    "birthYear": 1964,
-    "position": "Atacant",
-    "nationality": "RO",
-    "isCultHero": true
-  },
-  {
-    "id": "belodedici",
-    "name": "Miodrag Belodedici",
-    "normalizedName": "miodrag belodedici belo caprioara",
-    "displayName": "Miodrag Belodedici (Belo)",
-    "clubs": ["fcsb"],
-    "nationalCaps": 55,
-    "achievements": ["golden_generation", "liga1_champion", "champions_league", "romania_national"],
-    "birthYear": 1964,
-    "position": "Libero",
-    "nationality": "RO",
-    "isCultHero": true
-  },
-  {
-    "id": "ilie_adrian",
-    "name": "Adrian Ilie",
-    "normalizedName": "adrian ilie cobra",
-    "displayName": "Adrian Ilie (Cobra)",
-    "clubs": ["craiova", "fcsb", "galatasaray"],
-    "nationalCaps": 55,
-    "achievements": ["golden_generation", "liga1_champion", "champions_league", "romania_national"],
-    "birthYear": 1974,
-    "position": "Atacant",
-    "nationality": "RO",
-    "isCultHero": true
-  },
-  {
-    "id": "dumitrescu_ilie",
-    "name": "Ilie Dumitrescu",
-    "normalizedName": "ilie dumitrescu mister",
-    "displayName": "Ilie Dumitrescu",
-    "clubs": ["fcsb", "arges"],
-    "nationalCaps": 62,
-    "achievements": ["golden_generation", "liga1_champion", "romania_national"],
-    "birthYear": 1969,
-    "position": "Atacant",
-    "nationality": "RO",
-    "isCultHero": true
-  },
-  {
-    "id": "raducioiu",
-    "name": "Florin Răducioiu",
-    "normalizedName": "florin raducioiu",
-    "displayName": "Florin Răducioiu",
-    "clubs": ["dinamo", "inter"],
-    "nationalCaps": 40,
-    "achievements": ["golden_generation", "serie_a", "champions_league", "romania_national"],
-    "birthYear": 1970,
-    "position": "Atacant",
-    "nationality": "RO"
-  },
-  {
-    "id": "lupescu",
-    "name": "Ionuț Lupescu",
-    "normalizedName": "ionut lupescu kaizerul",
-    "displayName": "Ionuț Lupescu",
-    "clubs": ["dinamo"],
-    "nationalCaps": 74,
-    "achievements": ["golden_generation", "liga1_champion", "romania_national"],
-    "birthYear": 1968,
-    "position": "Mijlocaș",
-    "nationality": "RO"
-  },
-  {
-    "id": "moldovan_viorel",
-    "name": "Viorel Moldovan",
-    "normalizedName": "viorel moldovan comisarul",
-    "displayName": "Viorel Moldovan",
-    "clubs": ["bistrita", "dinamo", "rapid", "timisoara"],
-    "nationalCaps": 70,
-    "achievements": ["golden_generation", "liga1_champion", "romania_national"],
-    "birthYear": 1972,
-    "position": "Atacant",
-    "nationality": "RO"
-  },
-  {
-    "id": "prunea",
-    "name": "Florin Prunea",
-    "normalizedName": "florin prunea",
-    "displayName": "Florin Prunea",
-    "clubs": ["dinamo", "craiova", "astra"],
-    "nationalCaps": 40,
-    "achievements": ["golden_generation", "liga1_champion", "romania_national"],
-    "birthYear": 1968,
     "position": "Portar",
-    "nationality": "RO"
-  },
-  {
-    "id": "gardos",
-    "name": "Florin Gardoș",
-    "normalizedName": "florin gardos",
-    "displayName": "Florin Gardoș",
-    "clubs": ["fcsb", "craiova"],
-    "nationalCaps": 14,
-    "achievements": ["liga1_champion"],
-    "birthYear": 1988,
-    "position": "Fundaș Central",
-    "nationality": "RO"
-  },
-  {
-    "id": "cernat",
-    "name": "Florin Cernat",
-    "normalizedName": "florin cernat diamantul",
-    "displayName": "Florin Cernat",
-    "clubs": ["otelul", "dinamo", "farul"],
-    "nationalCaps": 14,
-    "achievements": ["champions_league"],
-    "birthYear": 1980,
-    "position": "Mijlocaș Ofensiv",
     "nationality": "RO",
-    "isCultHero": true
-  },
-  {
-    "id": "mitea",
-    "name": "Nicolae Mitea",
-    "normalizedName": "nicolae mitea niky mitea",
-    "displayName": "Nicolae Mitea",
-    "clubs": ["dinamo", "ajax"],
-    "nationalCaps": 9,
-    "achievements": ["champions_league"],
-    "birthYear": 1985,
-    "position": "Extremă",
-    "nationality": "RO",
-    "isCultHero": true
+    "photoUrl": "https://img.a.transfermarkt.technology/portrait/big/568544-1753789482.png",
+    "isCultHero": false
   }
 ]
