@@ -6,12 +6,16 @@
 
 ### *"Faci pac, pac, tiki-taka Barcelona! Nu vă supărați, cine e pe primul loc?"*
 
+### 🎮 **[JOACĂ ACUM ÎN BROWSER: https://gabarsolon.github.io/gigi-taka-barcelona/](https://gabarsolon.github.io/gigi-taka-barcelona/)** 🎮
+
 **Jocul suprem de Football Grid Trivia (Tic-Tac-Toe) dedicat fotbalului românesc și legendelor sale.**
+
+[![Play Now](https://img.shields.io/badge/🎮%20PLAY%20NOW-Joacă%20Online-brightgreen?style=for-the-badge&logo=googlechrome&logoColor=white)](https://gabarsolon.github.io/gigi-taka-barcelona/)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-Joc%20Online-brightgreen.svg)](https://gabarsolon.github.io/gigi-taka-barcelona/)
 [![API](https://img.shields.io/badge/Data-Transfermarkt%20API-blue.svg)](https://github.com/felipeall/transfermarkt-api)
-[![Status](https://img.shields.io/badge/Status-In%20Development-orange.svg)](#)
+[![GitHub Pages](https://img.shields.io/badge/Deployed-GitHub%20Pages-success.svg)](https://gabarsolon.github.io/gigi-taka-barcelona/)
 
 </div>
 
@@ -187,10 +191,8 @@ Aplicația originală de referință (`Tiki+Taka+Toe_1.1.47_APKPure.xapk`) a fos
 * **Pachet Android**: `com.playfootballgames.tikitakatoe`
 * **Arhitectură tehnică**: Aplicație cross-platform construită pe **React Native** cu motor **Hermes Bytecode** (`index.android.bundle`).
 * **Locație fișiere decompilate**: `C:\Users\remus\Downloads\TikiTakaToe_decompiled\`
-* **Observații cheie din decompilare**:
-  - Grilele folosesc o structură de tip matrice de validare bazată pe `club_id` și `player_id`.
-  - Sistemul de sugestii (autocomplete) este decuplat de motorul de validare pentru a reduce latența la tastare.
-  - Scorarea se face la final prin compararea alegerii locale cu un vector agregat de selecții la nivel global (pentru a calcula procentajul de raritate).
+* **Raport Exhaustiv**: Am disecat și decodificat peste 93.000 de simboluri din bytecode-ul Hermes. Toate cele 5 moduri de joc (Tic Tac Toe, Pass & Play cu sistemul de Steals, Bingo Drops cu Energie, Tenable cu Vieți, Box2Box), baza de peste 46.500 de fotbaliști și monetizarea AdMob sunt documentate în:
+  👉 **[docs/tiki-taka-toe.md](docs/tiki-taka-toe.md)**
 
 ---
 
@@ -201,10 +203,16 @@ gigi-taka-barcelona/
 ├── assets/
 │   └── gigi-taka-barcelona.jpg    # Logo & identitate vizuală
 ├── docs/
-│   └── game-rules.md              # Detalii regulament și cazuri particulare
+│   └── tiki-taka-toe.md           # Analiză exhaustivă reverse engineering APK (Hermes v99)
+├── src/                           # Aplicația web React + TypeScript + Vite + Tailwind
+│   ├── components/                # Grid, Cell, Header, GigiBanter, Modale
+│   ├── data/                      # Jucători colectați din Transfermarkt & grile
+│   └── utils/                     # Algoritmi solvabilitate CSP & motor audio Web Audio
+├── scripts/
+│   └── harvest_tm.py              # Harvester automatizat Transfermarkt API
 ├── agents.md                      # Ghidul și definiția agenților AI
 ├── README.md                      # Documentația principală a proiectului
-└── (codul sursă web / api / scraper)
+└── vite.config.ts
 ```
 
 ---
