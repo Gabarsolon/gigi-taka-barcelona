@@ -50,21 +50,22 @@ export const Header: React.FC<HeaderProps> = ({
   return (
     <header className="w-full max-w-4xl mx-auto pt-2.5 sm:pt-4 pb-1 sm:pb-2 px-2.5 sm:px-4 flex flex-col gap-2 sm:gap-3">
       {/* Top Navbar */}
-      <div className="flex items-center justify-between gap-1.5">
-        {/* Brand / Logo */}
-        <div className="flex items-center gap-2 sm:gap-3 min-w-0">
+      <div className="flex items-center justify-between gap-2">
+        {/* Brand / Logo + Title */}
+        <div className="flex items-center gap-2 sm:gap-3 shrink-0">
           <img
             src={`${import.meta.env.BASE_URL}assets/gigi-taka-barcelona.jpg`}
             alt="Gigi-Taka Logo"
             className="w-9 h-9 sm:w-11 sm:h-11 rounded-full border-2 border-gold object-cover shadow-lg shadow-gold/20 shrink-0"
           />
-          <div className="min-w-0">
-            <h1 className="text-base sm:text-2xl font-black tracking-tight text-white flex items-center gap-1 sm:gap-1.5 leading-none">
-              <span className="truncate">GIGI-TAKA</span>
-              <span className="text-gold shrink-0">BARCELONA</span>
+          <div className="flex flex-col justify-center leading-none">
+            <h1 className="font-black tracking-tight leading-none flex flex-col sm:flex-row sm:items-center sm:gap-1.5">
+              <span className="text-white text-xs xs:text-sm sm:text-2xl tracking-wide">GIGI-TAKA</span>
+              <span className="text-gold text-xs xs:text-sm sm:text-2xl tracking-wide">BARCELONA</span>
             </h1>
-            <p className="text-[10px] sm:text-xs text-emerald-400 font-semibold tracking-wide mt-0.5 truncate">
-              🇷🇴 Football Grid Trivia
+            <p className="text-[9px] sm:text-xs text-emerald-400 font-semibold tracking-wide mt-0.5 leading-none">
+              <span className="hidden sm:inline">🇷🇴 Football Grid Trivia</span>
+              <span className="sm:hidden">🇷🇴 Grid Trivia</span>
             </p>
           </div>
         </div>
@@ -76,11 +77,11 @@ export const Header: React.FC<HeaderProps> = ({
               sound.playPac();
               onToggleSound();
             }}
-            className="p-1.5 sm:p-2 rounded-lg sm:rounded-xl bg-slate-800/80 hover:bg-slate-700 text-slate-300 hover:text-white transition border border-slate-700"
+            className="w-7 h-7 sm:w-9 sm:h-9 rounded-lg sm:rounded-xl bg-slate-800/80 hover:bg-slate-700 text-slate-300 hover:text-white transition border border-slate-700 flex items-center justify-center shrink-0"
             title={soundEnabled ? 'Oprește sunetul' : 'Pornește sunetul'}
             aria-label="Sunet"
           >
-            {soundEnabled ? <Volume2 size={16} className="sm:w-[18px] sm:h-[18px]" /> : <VolumeX size={16} className="text-red-400 sm:w-[18px] sm:h-[18px]" />}
+            {soundEnabled ? <Volume2 size={14} className="sm:w-[18px] sm:h-[18px]" /> : <VolumeX size={14} className="text-red-400 sm:w-[18px] sm:h-[18px]" />}
           </button>
 
           <button
@@ -88,11 +89,11 @@ export const Header: React.FC<HeaderProps> = ({
               sound.playPac();
               onOpenHelp();
             }}
-            className="p-1.5 sm:p-2 rounded-lg sm:rounded-xl bg-slate-800/80 hover:bg-slate-700 text-slate-300 hover:text-white transition border border-slate-700"
+            className="w-7 h-7 sm:w-9 sm:h-9 rounded-lg sm:rounded-xl bg-slate-800/80 hover:bg-slate-700 text-slate-300 hover:text-white transition border border-slate-700 flex items-center justify-center shrink-0"
             title="Cum se joacă"
             aria-label="Ajutor"
           >
-            <HelpCircle size={16} className="sm:w-[18px] sm:h-[18px]" />
+            <HelpCircle size={14} className="sm:w-[18px] sm:h-[18px]" />
           </button>
 
           <button
@@ -100,11 +101,11 @@ export const Header: React.FC<HeaderProps> = ({
               sound.playPac();
               onOpenSettings();
             }}
-            className="p-1.5 sm:p-2 rounded-lg sm:rounded-xl bg-slate-800/80 hover:bg-slate-700 text-gold hover:text-gold-light transition border border-slate-700"
+            className="w-7 h-7 sm:w-9 sm:h-9 rounded-lg sm:rounded-xl bg-slate-800/80 hover:bg-slate-700 text-gold hover:text-gold-light transition border border-slate-700 flex items-center justify-center shrink-0"
             title="Setări și Dificultate"
             aria-label="Setări"
           >
-            <Settings size={16} className="sm:w-[18px] sm:h-[18px]" />
+            <Settings size={14} className="sm:w-[18px] sm:h-[18px]" />
           </button>
 
           <button
@@ -112,11 +113,11 @@ export const Header: React.FC<HeaderProps> = ({
               sound.playPoc();
               onReset();
             }}
-            className="p-1.5 sm:p-2 rounded-lg sm:rounded-xl bg-slate-800/80 hover:bg-slate-700 text-slate-300 hover:text-white transition border border-slate-700"
+            className="w-7 h-7 sm:w-9 sm:h-9 rounded-lg sm:rounded-xl bg-slate-800/80 hover:bg-slate-700 text-slate-300 hover:text-white transition border border-slate-700 flex items-center justify-center shrink-0"
             title="Meci nou (Grilă nouă)"
             aria-label="Meci Nou"
           >
-            <RotateCcw size={16} className="sm:w-[18px] sm:h-[18px]" />
+            <RotateCcw size={14} className="sm:w-[18px] sm:h-[18px]" />
           </button>
         </div>
       </div>
