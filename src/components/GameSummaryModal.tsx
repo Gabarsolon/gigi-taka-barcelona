@@ -49,45 +49,45 @@ export const GameSummaryModal: React.FC<GameSummaryModalProps> = ({
   };
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/85 backdrop-blur-md animate-in fade-in duration-200">
-      <div className="w-full max-w-md bg-slate-900 border-2 border-gold rounded-3xl p-6 text-center shadow-2xl relative overflow-hidden">
+    <div className="fixed inset-0 z-50 flex items-center justify-center p-2.5 sm:p-4 bg-black/85 backdrop-blur-md animate-in fade-in duration-200">
+      <div className="w-full max-w-md bg-slate-900 border-2 border-gold rounded-2xl sm:rounded-3xl p-4 sm:p-6 text-center shadow-2xl relative overflow-hidden max-h-[90vh] overflow-y-auto">
         {/* Glow effect */}
         <div className={`absolute -top-24 -left-24 w-48 h-48 rounded-full blur-3xl pointer-events-none ${
           isWon ? 'bg-gold/20' : 'bg-red-600/20'
         }`} />
 
         {/* Icon */}
-        <div className="mx-auto mb-4 w-16 h-16 rounded-full flex items-center justify-center shadow-lg">
+        <div className="mx-auto mb-3 sm:mb-4 w-12 h-12 sm:w-16 sm:h-16 rounded-full flex items-center justify-center shadow-lg">
           {isWon ? (
-            <div className="w-16 h-16 rounded-full bg-gold/20 border-2 border-gold flex items-center justify-center text-gold shadow-gold/40 shadow-lg">
-              <Trophy size={32} className="animate-bounce" />
+            <div className="w-12 h-12 sm:w-16 sm:h-16 rounded-full bg-gold/20 border-2 border-gold flex items-center justify-center text-gold shadow-gold/40 shadow-lg">
+              <Trophy size={24} className="animate-bounce sm:w-8 sm:h-8" />
             </div>
           ) : (
-            <div className="w-16 h-16 rounded-full bg-red-950/40 border-2 border-red-500 flex items-center justify-center text-red-500 shadow-red-900/40 shadow-lg">
-              <Frown size={32} />
+            <div className="w-12 h-12 sm:w-16 sm:h-16 rounded-full bg-red-950/40 border-2 border-red-500 flex items-center justify-center text-red-500 shadow-red-900/40 shadow-lg">
+              <Frown size={24} className="sm:w-8 sm:h-8" />
             </div>
           )}
         </div>
 
         {/* Title */}
-        <h2 className="text-2xl font-black text-white tracking-tight">
+        <h2 className="text-lg sm:text-2xl font-black text-white tracking-tight">
           {isWon ? 'CAMPIONII! PAC, PAC!' : 'SCHIMBARE LA PAUZĂ!'}
         </h2>
-        <p className="text-sm font-semibold text-emerald-400 mt-1">
+        <p className="text-xs sm:text-sm font-semibold text-emerald-400 mt-0.5 sm:mt-1">
           Ai completat {score} din 9 căsuțe
         </p>
 
         {/* Gigi Final Quote */}
-        <div className="my-4 p-3.5 rounded-2xl bg-slate-800/80 border border-slate-700 italic text-sm text-slate-200 font-medium leading-relaxed">
+        <div className="my-3 sm:my-4 p-2.5 sm:p-3.5 rounded-xl sm:rounded-2xl bg-slate-800/80 border border-slate-700 italic text-xs sm:text-sm text-slate-200 font-medium leading-relaxed">
           "{gigiQuote}"
         </div>
 
         {/* Emoji Matrix Preview */}
-        <div className="inline-block p-3 rounded-2xl bg-slate-950/60 border border-slate-800 my-2">
+        <div className="inline-block p-2 sm:p-3 rounded-xl sm:rounded-2xl bg-slate-950/60 border border-slate-800 my-1 sm:my-2">
           {grid.map((row, rIdx) => (
-            <div key={rIdx} className="flex justify-center gap-1.5 my-1">
+            <div key={rIdx} className="flex justify-center gap-1 sm:gap-1.5 my-0.5 sm:my-1">
               {row.map((cell, cIdx) => (
-                <span key={cIdx} className="text-xl">
+                <span key={cIdx} className="text-base sm:text-xl">
                   {cell ? '🟩' : '🟥'}
                 </span>
               ))}
@@ -96,19 +96,19 @@ export const GameSummaryModal: React.FC<GameSummaryModalProps> = ({
         </div>
 
         {/* Actions */}
-        <div className="flex flex-col gap-2.5 mt-4">
+        <div className="flex flex-col gap-2 sm:gap-2.5 mt-3 sm:mt-4">
           <button
             onClick={handleShare}
-            className="w-full py-3 rounded-2xl bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-500 hover:to-teal-500 text-white font-black text-sm tracking-wide shadow-lg shadow-emerald-950 flex items-center justify-center gap-2 transition active:scale-95"
+            className="w-full py-2.5 sm:py-3 rounded-xl sm:rounded-2xl bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-500 hover:to-teal-500 text-white font-black text-xs sm:text-sm tracking-wide shadow-lg shadow-emerald-950 flex items-center justify-center gap-2 transition active:scale-95"
           >
             {copied ? (
               <>
-                <Check size={18} />
+                <Check size={16} />
                 Copiat în Clipboard!
               </>
             ) : (
               <>
-                <Share2 size={18} />
+                <Share2 size={16} />
                 Distribuie Grila (Wordle style)
               </>
             )}
@@ -119,9 +119,9 @@ export const GameSummaryModal: React.FC<GameSummaryModalProps> = ({
               sound.playPoc();
               onPlayAgain();
             }}
-            className="w-full py-3 rounded-2xl bg-slate-800 hover:bg-slate-700 text-slate-200 font-extrabold text-sm border border-slate-700 flex items-center justify-center gap-2 transition active:scale-95"
+            className="w-full py-2.5 sm:py-3 rounded-xl sm:rounded-2xl bg-slate-800 hover:bg-slate-700 text-slate-200 font-extrabold text-xs sm:text-sm border border-slate-700 flex items-center justify-center gap-2 transition active:scale-95"
           >
-            <RotateCcw size={18} />
+            <RotateCcw size={16} />
             Meci Nou
           </button>
         </div>

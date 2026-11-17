@@ -205,22 +205,22 @@ export function App() {
         />
 
         {/* Clean Controls below Grid */}
-        <div className="w-full max-w-4xl mx-auto px-4 mt-3 flex items-center justify-between text-xs text-slate-400">
-          <div className="flex items-center gap-1.5">
+        <div className="w-full max-w-4xl mx-auto px-2.5 sm:px-4 mt-2 sm:mt-3 flex items-center justify-between text-[11px] sm:text-xs text-slate-400">
+          <div className="flex items-center gap-1 sm:gap-1.5">
             <span>Dificultate:</span>
             <button
               onClick={() => {
                 sound.playPac();
                 setIsSettingsOpen(true);
               }}
-              className="text-gold font-bold hover:underline flex items-center gap-1 cursor-pointer"
+              className="text-gold font-bold hover:underline flex items-center gap-0.5 sm:gap-1 cursor-pointer"
               title="Apasă pentru a schimba dificultatea"
             >
               {currentPuzzle.difficulty} ⚙️
             </button>
           </div>
 
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-2 sm:gap-2.5">
             <button
               onClick={loadDailyGrid}
               className="hover:text-emerald-300 font-semibold transition cursor-pointer"
@@ -243,7 +243,7 @@ export function App() {
       </div>
 
       {/* Footer */}
-      <footer className="w-full text-center text-xs text-slate-400 mt-6 px-4">
+      <footer className="w-full text-center text-[10px] sm:text-xs text-slate-500 mt-4 sm:mt-6 px-4">
         <p>Gigi-Taka-Barcelona • Football Grid Trivia 100% Românesc • Inspirat de folclorul Ligii 1</p>
       </footer>
 

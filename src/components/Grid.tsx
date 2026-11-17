@@ -22,15 +22,13 @@ export const Grid: React.FC<GridProps> = ({
   disabled
 }) => {
   return (
-    <div className="w-full max-w-4xl mx-auto px-3 sm:px-4 my-2">
-      <div className="relative bg-pitch/90 border-2 border-emerald-700/60 rounded-3xl p-2.5 sm:p-4 shadow-2xl backdrop-blur-md overflow-hidden">
-        {/* Grid Container */}
-
+    <div className="w-full max-w-4xl mx-auto px-1.5 sm:px-4 my-1 sm:my-2">
+      <div className="relative bg-pitch/90 border border-emerald-700/60 sm:border-2 rounded-2xl sm:rounded-3xl p-1.5 sm:p-4 shadow-2xl backdrop-blur-md overflow-hidden">
         {/* 4x4 Grid layout */}
-        <div className="relative grid grid-cols-4 gap-1.5 sm:gap-2.5 md:gap-3">
+        <div className="relative grid grid-cols-4 gap-1 sm:gap-2.5 md:gap-3">
           {/* Top-Left Corner */}
-          <div className="flex items-center justify-center p-2 rounded-xl bg-slate-900/40 border border-emerald-900/40">
-            <span className="text-xl sm:text-2xl font-black text-gold/80 tracking-widest select-none">
+          <div className="flex items-center justify-center p-1 sm:p-2 rounded-lg sm:rounded-xl bg-slate-900/40 border border-emerald-900/40">
+            <span className="text-xs sm:text-2xl font-black text-gold/80 tracking-widest select-none">
               3×3
             </span>
           </div>
@@ -39,10 +37,10 @@ export const Grid: React.FC<GridProps> = ({
           {cols.map((col, idx) => (
             <div
               key={idx}
-              className="flex flex-col items-center justify-center p-2 sm:p-2.5 rounded-xl bg-slate-900/80 border border-slate-700/80 text-center shadow"
+              className="flex flex-col items-center justify-center p-1 sm:p-2.5 rounded-lg sm:rounded-xl bg-slate-900/80 border border-slate-700/80 text-center shadow overflow-hidden"
             >
-              <span className="text-base sm:text-xl mb-0.5">{col.badge}</span>
-              <span className="text-xs sm:text-sm font-black text-slate-100 leading-tight">
+              <span className="text-sm sm:text-xl leading-none mb-0.5">{col.badge}</span>
+              <span className="text-[10px] sm:text-sm font-black text-slate-100 leading-tight line-clamp-2 break-words">
                 {col.shortName || col.name}
               </span>
               <span className="text-[10px] text-slate-400 font-medium truncate max-w-full hidden sm:block">
@@ -55,9 +53,9 @@ export const Grid: React.FC<GridProps> = ({
           {rows.map((row, rIdx) => (
             <React.Fragment key={rIdx}>
               {/* Row Header (Left) */}
-              <div className="flex flex-col items-center justify-center p-2 sm:p-2.5 rounded-xl bg-slate-900/80 border border-slate-700/80 text-center shadow">
-                <span className="text-base sm:text-xl mb-0.5">{row.badge}</span>
-                <span className="text-xs sm:text-sm font-black text-slate-100 leading-tight">
+              <div className="flex flex-col items-center justify-center p-1 sm:p-2.5 rounded-lg sm:rounded-xl bg-slate-900/80 border border-slate-700/80 text-center shadow overflow-hidden">
+                <span className="text-sm sm:text-xl leading-none mb-0.5">{row.badge}</span>
+                <span className="text-[10px] sm:text-sm font-black text-slate-100 leading-tight line-clamp-2 break-words">
                   {row.shortName || row.name}
                 </span>
                 <span className="text-[10px] text-slate-400 font-medium truncate max-w-full hidden sm:block">
