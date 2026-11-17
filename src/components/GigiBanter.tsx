@@ -20,7 +20,7 @@ export const GigiBanter: React.FC<GigiBanterProps> = ({ quote, mood = 'happy' })
         {/* Gigi Avatar */}
         <div className="relative shrink-0">
           <img
-            src="/assets/gigi-taka-barcelona.jpg"
+            src={`${import.meta.env.BASE_URL}assets/gigi-taka-barcelona.jpg`}
             alt="Vocea Patronului"
             className="w-12 h-12 sm:w-14 sm:h-14 rounded-full object-cover border-2 border-gold shadow-md"
           />

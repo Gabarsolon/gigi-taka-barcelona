@@ -29,7 +29,7 @@ export const Header: React.FC<HeaderProps> = ({
       <div className="flex items-center justify-between">
         <div className="flex items-center gap-3">
           <img
-            src="/assets/gigi-taka-barcelona.jpg"
+            src={`${import.meta.env.BASE_URL}assets/gigi-taka-barcelona.jpg`}
             alt="Gigi-Taka Logo"
             className="w-11 h-11 rounded-full border-2 border-gold object-cover shadow-lg shadow-gold/20"
           />
