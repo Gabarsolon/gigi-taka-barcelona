@@ -9,6 +9,18 @@ export function normalizeText(text: string): string {
     .trim();
 }
 
+// Fast WeakMap cache for search keys so normalizeText runs only once per player
+const playerSearchIndex = new WeakMap<Player, string>();
+
+export function getPlayerSearchKey(player: Player): string {
+  let key = playerSearchIndex.get(player);
+  if (!key) {
+    key = normalizeText(`${player.name} ${player.normalizedName || ''}`);
+    playerSearchIndex.set(player, key);
+  }
+  return key;
+}
+
 export function validatePlayerForCriterion(player: Player, criterion: Criterion): boolean {
   if (criterion.type === 'club') {
     return player.clubs.includes(criterion.id);
@@ -46,13 +58,16 @@ export function searchPlayers(
   const cleanQuery = normalizeText(query);
   if (!cleanQuery) return [];
 
-  return allPlayers
-    .filter(p => !usedPlayerIds.has(p.id))
-    .filter(p => {
-      const pNorm = normalizeText(p.normalizedName || p.name);
-      return pNorm.includes(cleanQuery);
-    })
-    .slice(0, 10);
+  const results: Player[] = [];
+  for (let i = 0; i < allPlayers.length; i++) {
+    const p = allPlayers[i];
+    if (usedPlayerIds.has(p.id)) continue;
+    if (getPlayerSearchKey(p).includes(cleanQuery)) {
+      results.push(p);
+      if (results.length >= 10) break; // Instant early exit!
+    }
+  }
+  return results;
 }
 
 export function getPossibleSolutions(

@@ -10,7 +10,7 @@ interface CellProps {
   disabled: boolean;
 }
 
-export const Cell: React.FC<CellProps> = ({
+export const Cell: React.FC<CellProps> = React.memo(({
   player,
   isSelected,
   isError,
@@ -74,4 +74,4 @@ export const Cell: React.FC<CellProps> = ({
       </span>
     </button>
   );
-};
+});

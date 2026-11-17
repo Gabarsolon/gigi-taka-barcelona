@@ -14,6 +14,10 @@ class SoundEngine {
     }
   }
 
+  public warmUp() {
+    this.initContext();
+  }
+
   // "Pac!" sound - sharp pop
   playPac() {
     if (!this.enabled) return;
@@ -138,3 +142,14 @@ class SoundEngine {
 }
 
 export const sound = new SoundEngine();
+
+// Non-blocking AudioContext warmup on first user gesture
+if (typeof window !== 'undefined') {
+  const warmUpAudio = () => {
+    sound.warmUp();
+    window.removeEventListener('pointerdown', warmUpAudio);
+    window.removeEventListener('keydown', warmUpAudio);
+  };
+  window.addEventListener('pointerdown', warmUpAudio, { once: true, passive: true });
+  window.addEventListener('keydown', warmUpAudio, { once: true, passive: true });
+}

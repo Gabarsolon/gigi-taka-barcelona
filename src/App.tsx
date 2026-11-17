@@ -66,14 +66,14 @@ export function App() {
     );
   }, []);
 
-  const handleCellClick = (row: number, col: number) => {
+  const handleCellClick = useCallback((row: number, col: number) => {
     if (lives <= 0 || gameResult !== null) return;
     sound.playPac();
     setSelectedCell({ row, col });
     setGigiMood('thinking');
-  };
+  }, [lives, gameResult]);
 
-  const handleSelectPlayer = (player: Player) => {
+  const handleSelectPlayer = useCallback((player: Player) => {
     if (!selectedCell) return;
     const { row, col } = selectedCell;
 
@@ -146,7 +146,7 @@ export function App() {
         setTimeout(() => setIsSummaryOpen(true), 900);
       }
     }
-  };
+  }, [selectedCell, currentPuzzle, grid, usedPlayerIds, score, lives]);
 
   const handleNextPuzzle = () => {
     setPuzzleIndex(prev => prev + 1);

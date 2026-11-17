@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useMemo } from 'react';
 import { Player, Criterion } from '../types';
 import { searchPlayers } from '../utils/gameLogic';
 import { Search, X, User } from 'lucide-react';
@@ -14,7 +14,7 @@ interface PlayerSearchModalProps {
   onSelectPlayer: (player: Player) => void;
 }
 
-export const PlayerSearchModal: React.FC<PlayerSearchModalProps> = ({
+export const PlayerSearchModal: React.FC<PlayerSearchModalProps> = React.memo(({
   isOpen,
   onClose,
   rowCriterion,
@@ -24,24 +24,18 @@ export const PlayerSearchModal: React.FC<PlayerSearchModalProps> = ({
   onSelectPlayer
 }) => {
   const [query, setQuery] = useState('');
-  const inputRef = useRef<HTMLInputElement>(null);
 
-  useEffect(() => {
-    if (isOpen) {
-      setQuery('');
-      setTimeout(() => inputRef.current?.focus(), 50);
-    }
-  }, [isOpen]);
+  const results = useMemo(() => {
+    return searchPlayers(query, allPlayers, usedPlayerIds);
+  }, [query, allPlayers, usedPlayerIds]);
 
   if (!isOpen) return null;
 
-  const results = searchPlayers(query, allPlayers, usedPlayerIds);
-
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80 backdrop-blur-sm animate-in fade-in duration-200">
-      <div className="w-full max-w-lg bg-slate-900 border-2 border-emerald-600/60 rounded-3xl shadow-2xl overflow-hidden flex flex-col max-h-[85vh]">
+    <div className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-4 bg-black/80">
+      <div className="w-full max-w-lg bg-slate-900 border-2 border-emerald-600/70 rounded-3xl shadow-2xl overflow-hidden flex flex-col max-h-[85vh]">
         {/* Modal Header */}
-        <div className="p-4 bg-gradient-to-r from-emerald-950 via-slate-900 to-emerald-950 border-b border-emerald-800/50 flex items-center justify-between">
+        <div className="p-4 bg-slate-950 border-b border-emerald-900/60 flex items-center justify-between">
           <div>
             <div className="text-xs uppercase font-extrabold tracking-wider text-gold flex items-center gap-1.5">
               <span>Cerințe Căsuță:</span>
@@ -68,19 +62,19 @@ export const PlayerSearchModal: React.FC<PlayerSearchModalProps> = ({
         </div>
 
         {/* Search Input */}
-        <div className="p-4 border-b border-slate-800 bg-slate-900/60">
+        <div className="p-4 border-b border-slate-800 bg-slate-900">
           <div className="relative">
             <Search
               size={20}
-              className="absolute left-3.5 top-1/2 -translate-y-1/2 text-slate-400"
+              className="absolute left-3.5 top-1/2 -translate-y-1/2 text-slate-400 pointer-events-none"
             />
             <input
-              ref={inputRef}
+              autoFocus
               type="text"
               value={query}
               onChange={e => setQuery(e.target.value)}
               placeholder="Tastează numele fotbalistului (ex: Hagi, Mutu, Stanciu)..."
-              className="w-full pl-11 pr-4 py-3 rounded-2xl bg-slate-800/90 border-2 border-slate-700 focus:border-gold text-white placeholder-slate-400 font-semibold outline-none transition shadow-inner"
+              className="w-full pl-11 pr-4 py-3 rounded-2xl bg-slate-800 border-2 border-slate-700 focus:border-gold text-white placeholder-slate-400 font-semibold outline-none transition"
             />
           </div>
         </div>
@@ -109,7 +103,7 @@ export const PlayerSearchModal: React.FC<PlayerSearchModalProps> = ({
                 onClick={() => {
                   onSelectPlayer(player);
                 }}
-                className="w-full text-left p-3 rounded-2xl bg-slate-800/70 hover:bg-emerald-950/70 border border-slate-700 hover:border-emerald-500 transition-all flex items-center justify-between group"
+                className="w-full text-left p-3 rounded-2xl bg-slate-800/80 hover:bg-emerald-950/80 border border-slate-700 hover:border-emerald-500 transition flex items-center justify-between group"
               >
                 <div className="flex items-center gap-3">
                   <div className="w-10 h-10 rounded-full bg-slate-700 group-hover:bg-emerald-900 border border-slate-600 group-hover:border-emerald-400 flex items-center justify-center font-black text-sm text-gold shadow">
@@ -142,4 +136,4 @@ export const PlayerSearchModal: React.FC<PlayerSearchModalProps> = ({
       </div>
     </div>
   );
-};
+});
