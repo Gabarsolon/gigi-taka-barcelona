@@ -9,6 +9,7 @@
 **Jocul suprem de Football Grid Trivia (Tic-Tac-Toe) dedicat fotbalului românesc și legendelor sale.**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Joc%20Online-brightgreen.svg)](https://gabarsolon.github.io/gigi-taka-barcelona/)
 [![API](https://img.shields.io/badge/Data-Transfermarkt%20API-blue.svg)](https://github.com/felipeall/transfermarkt-api)
 [![Status](https://img.shields.io/badge/Status-In%20Development-orange.svg)](#)
 
