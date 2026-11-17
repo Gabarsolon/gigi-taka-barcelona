@@ -1,6 +1,6 @@
 import { useState, useEffect, useCallback } from 'react';
 import confetti from 'canvas-confetti';
-import { Player, CellPosition } from './types';
+import { Player, CellPosition, GridPuzzle } from './types';
 import rawPlayers from './data/players.json';
 import { PRESET_PUZZLES, GIGI_QUOTES } from './data/puzzles';
 import { Header } from './components/Header';
@@ -9,14 +9,16 @@ import { Grid } from './components/Grid';
 import { PlayerSearchModal } from './components/PlayerSearchModal';
 import { GameSummaryModal } from './components/GameSummaryModal';
 import { HowToPlayModal } from './components/HowToPlayModal';
-import { validatePlayerForCell } from './utils/gameLogic';
+import { validatePlayerForCell, generateRandomSolvableGrid } from './utils/gameLogic';
 import { sound } from './utils/soundEngine';
+import { Dices, Calendar } from 'lucide-react';
 
 const MAX_LIVES = 3;
 
 export function App() {
-  const [puzzleIndex, setPuzzleIndex] = useState(0);
-  const currentPuzzle = PRESET_PUZZLES[puzzleIndex % PRESET_PUZZLES.length];
+  const allPlayers = rawPlayers as Player[];
+
+  const [currentPuzzle, setCurrentPuzzle] = useState<GridPuzzle>(() => PRESET_PUZZLES[0]);
 
   const [grid, setGrid] = useState<(Player | null)[][]>([
     [null, null, null],
@@ -40,14 +42,16 @@ export function App() {
   const [isSummaryOpen, setIsSummaryOpen] = useState(false);
   const [gameResult, setGameResult] = useState<'won' | 'lost' | null>(null);
 
-  const allPlayers = rawPlayers as Player[];
-
   // Sound sync
   useEffect(() => {
     sound.enabled = soundEnabled;
   }, [soundEnabled]);
 
-  const resetGame = useCallback(() => {
+  const startNewGame = useCallback((generateNew = true) => {
+    if (generateNew) {
+      const freshPuzzle = generateRandomSolvableGrid(allPlayers);
+      setCurrentPuzzle(freshPuzzle);
+    }
     setGrid([
       [null, null, null],
       [null, null, null],
@@ -62,9 +66,9 @@ export function App() {
     setIsSummaryOpen(false);
     setGigiMood('happy');
     setGigiQuote(
-      "Meci nou, tată! Concentrare maximă, tiki-taka din prima atingere!"
+      "Meci nou, tată! 6 criterii proaspete, tiki-taka din prima atingere!"
     );
-  }, []);
+  }, [allPlayers]);
 
   const handleCellClick = useCallback((row: number, col: number) => {
     if (lives <= 0 || gameResult !== null) return;
@@ -148,9 +152,10 @@ export function App() {
     }
   }, [selectedCell, currentPuzzle, grid, usedPlayerIds, score, lives]);
 
-  const handleNextPuzzle = () => {
-    setPuzzleIndex(prev => prev + 1);
-    resetGame();
+  const loadDailyGrid = () => {
+    sound.playPoc();
+    setCurrentPuzzle(PRESET_PUZZLES[0]);
+    startNewGame(false);
   };
 
   return (
@@ -163,7 +168,7 @@ export function App() {
           soundEnabled={soundEnabled}
           onToggleSound={() => setSoundEnabled(!soundEnabled)}
           onOpenHelp={() => setIsHelpOpen(true)}
-          onReset={resetGame}
+          onReset={() => startNewGame(true)}
           puzzleTitle={currentPuzzle.title}
         />
 
@@ -179,18 +184,32 @@ export function App() {
           disabled={lives <= 0 || gameResult !== null}
         />
 
-        {/* Puzzle Switcher Banner */}
-        <div className="w-full max-w-4xl mx-auto px-4 mt-3 flex items-center justify-between text-xs text-slate-400">
-          <span>Dificultate: <strong className="text-gold">{currentPuzzle.difficulty}</strong></span>
-          <button
-            onClick={() => {
-              sound.playPoc();
-              handleNextPuzzle();
-            }}
-            className="hover:text-emerald-300 underline font-semibold transition"
-          >
-            Schimbă Grila ({puzzleIndex + 1}/{PRESET_PUZZLES.length}) →
-          </button>
+        {/* Puzzle Switcher Controls */}
+        <div className="w-full max-w-4xl mx-auto px-4 mt-3 flex flex-wrap items-center justify-between gap-2 text-xs text-slate-400">
+          <div className="flex items-center gap-2">
+            <span>Dificultate: <strong className="text-gold">{currentPuzzle.difficulty}</strong></span>
+          </div>
+
+          <div className="flex items-center gap-2">
+            <button
+              onClick={loadDailyGrid}
+              className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-slate-800/80 hover:bg-slate-700 text-slate-300 hover:text-white transition border border-slate-700 font-semibold"
+            >
+              <Calendar size={14} className="text-emerald-400" />
+              Grila Zilei #1
+            </button>
+
+            <button
+              onClick={() => {
+                sound.playPoc();
+                startNewGame(true);
+              }}
+              className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-emerald-800/80 hover:bg-emerald-700 text-white transition border border-emerald-600 font-bold shadow-md shadow-emerald-950"
+            >
+              <Dices size={14} className="text-gold animate-spin-slow" />
+              🎲 Grilă Nouă Aleatorie
+            </button>
+          </div>
         </div>
       </div>
 
@@ -218,7 +237,7 @@ export function App() {
         score={score}
         grid={grid}
         gigiQuote={gigiQuote}
-        onPlayAgain={resetGame}
+        onPlayAgain={() => startNewGame(true)}
         puzzleTitle={currentPuzzle.title}
       />
 
