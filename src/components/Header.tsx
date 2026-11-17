@@ -1,5 +1,6 @@
 import React from 'react';
-import { Volume2, VolumeX, HelpCircle, RotateCcw, Flame } from 'lucide-react';
+import { Volume2, VolumeX, HelpCircle, RotateCcw, Flame, Settings } from 'lucide-react';
+import { DifficultyLevel } from '../types';
 import { sound } from '../utils/soundEngine';
 
 interface HeaderProps {
@@ -9,8 +10,10 @@ interface HeaderProps {
   soundEnabled: boolean;
   onToggleSound: () => void;
   onOpenHelp: () => void;
+  onOpenSettings: () => void;
   onReset: () => void;
   puzzleTitle: string;
+  difficulty: DifficultyLevel;
 }
 
 export const Header: React.FC<HeaderProps> = ({
@@ -20,9 +23,30 @@ export const Header: React.FC<HeaderProps> = ({
   soundEnabled,
   onToggleSound,
   onOpenHelp,
+  onOpenSettings,
   onReset,
-  puzzleTitle
+  puzzleTitle,
+  difficulty
 }) => {
+  const difficultyBadge =
+    difficulty === 'Mod Patron' ? (
+      <span className="bg-gradient-to-r from-purple-700 to-indigo-700 text-gold border border-gold/40 px-2 py-0.5 rounded-lg text-[10px] sm:text-xs font-black shadow cursor-pointer">
+        👑 Mod Patron
+      </span>
+    ) : difficulty === 'Greu' ? (
+      <span className="bg-red-800 text-white border border-red-600 px-2 py-0.5 rounded-lg text-[10px] sm:text-xs font-black shadow cursor-pointer">
+        🔥 Greu
+      </span>
+    ) : difficulty === 'Ușor' ? (
+      <span className="bg-emerald-800 text-emerald-200 border border-emerald-600 px-2 py-0.5 rounded-lg text-[10px] sm:text-xs font-black shadow cursor-pointer">
+        ⭐ Ușor
+      </span>
+    ) : (
+      <span className="bg-gold/20 text-gold border border-gold/40 px-2 py-0.5 rounded-lg text-[10px] sm:text-xs font-black shadow cursor-pointer">
+        ⚽ Mediu
+      </span>
+    );
+
   return (
     <header className="w-full max-w-4xl mx-auto pt-4 pb-2 px-4 flex flex-col gap-3">
       {/* Top Navbar */}
@@ -69,11 +93,22 @@ export const Header: React.FC<HeaderProps> = ({
 
           <button
             onClick={() => {
+              sound.playPac();
+              onOpenSettings();
+            }}
+            className="p-2 rounded-xl bg-slate-800/80 hover:bg-slate-700 text-gold hover:text-gold-light transition border border-slate-700"
+            title="Setări și Dificultate"
+          >
+            <Settings size={18} />
+          </button>
+
+          <button
+            onClick={() => {
               sound.playPoc();
               onReset();
             }}
             className="p-2 rounded-xl bg-slate-800/80 hover:bg-slate-700 text-slate-300 hover:text-white transition border border-slate-700"
-            title="Meci nou"
+            title="Meci nou (Grilă nouă)"
           >
             <RotateCcw size={18} />
           </button>
@@ -81,7 +116,7 @@ export const Header: React.FC<HeaderProps> = ({
       </div>
 
       {/* Game status bar */}
-      <div className="flex items-center justify-between bg-pitch/80 backdrop-blur border border-emerald-800/60 rounded-2xl px-4 py-2.5 shadow-md">
+      <div className="flex items-center justify-between bg-pitch/90 border border-emerald-800/60 rounded-2xl px-4 py-2.5 shadow-md">
         <div className="flex items-center gap-2">
           <span className="text-xs uppercase tracking-wider text-slate-400 font-medium">Scor:</span>
           <span className="text-lg font-black text-gold flex items-center gap-1">
@@ -90,8 +125,19 @@ export const Header: React.FC<HeaderProps> = ({
           </span>
         </div>
 
-        <div className="text-xs sm:text-sm font-semibold text-slate-300 truncate max-w-[180px] sm:max-w-none">
-          {puzzleTitle}
+        <div className="flex items-center gap-2">
+          <span className="text-xs sm:text-sm font-semibold text-slate-300 truncate max-w-[120px] sm:max-w-[200px]">
+            {puzzleTitle}
+          </span>
+          <button
+            onClick={() => {
+              sound.playPac();
+              onOpenSettings();
+            }}
+            title="Schimbă dificultatea din Setări"
+          >
+            {difficultyBadge}
+          </button>
         </div>
 
         {/* Lives / Cartonașe de patron */}
